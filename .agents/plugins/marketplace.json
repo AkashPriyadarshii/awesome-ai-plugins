@@ -4974,7 +4974,7 @@
     {
       "name": "TaskDock",
       "displayName": "TaskDock",
-      "description": "Agent skill for portable task folders with UUID lookup, explicit next actions, and duplicate detection",
+      "description": "Resume agent tasks from current deliverables and decisions, with portable folders, link repair, and reversible file organization",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -5633,6 +5633,21 @@
       "repo": "Token-Harbor",
       "url": "https://github.com/NickHOI/Token-Harbor",
       "install_url": "https://raw.githubusercontent.com/NickHOI/Token-Harbor/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "unic",
+      "displayName": "unic",
+      "description": "Local MCP server exposing read-only AWS inspection tools to AI agents, including capability discovery, Backup vault listing, and context sync previews",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "DevopsArtFactory",
+      "repo": "unic",
+      "url": "https://github.com/DevopsArtFactory/unic",
+      "install_url": "https://raw.githubusercontent.com/DevopsArtFactory/unic/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Zero Slop",

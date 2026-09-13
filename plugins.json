@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-13",
-  "total": 379,
+  "total": 380,
   "platforms": [
     "codex",
     "grok",
@@ -4652,7 +4652,7 @@
       "url": "https://github.com/m1nga/taskdock",
       "owner": "m1nga",
       "repo": "taskdock",
-      "description": "Agent skill for portable task folders with UUID lookup, explicit next actions, and duplicate detection",
+      "description": "Resume agent tasks from current deliverables and decisions, with portable folders, link repair, and reversible file organization",
       "category": "Development & Workflow",
       "platform": "codex",
       "source": "awesome-ai-plugins",
@@ -5262,6 +5262,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/NickHOI/Token-Harbor/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "unic",
+      "url": "https://github.com/DevopsArtFactory/unic",
+      "owner": "DevopsArtFactory",
+      "repo": "unic",
+      "description": "Local MCP server exposing read-only AWS inspection tools to AI agents, including capability discovery, Backup vault listing, and context sync previews",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/DevopsArtFactory/unic/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
