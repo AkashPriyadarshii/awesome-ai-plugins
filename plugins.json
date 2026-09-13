@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-09-12",
-  "total": 377,
+  "last_updated": "2026-09-13",
+  "total": 378,
   "platforms": [
     "codex",
     "grok",
@@ -3509,6 +3509,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/pawelkwaczynski/coffee-paladin/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "CommitLore",
+      "url": "https://github.com/MongLong0214/commitlore",
+      "owner": "MongLong0214",
+      "repo": "commitlore",
+      "description": "Keeps constraints, rejected alternatives, and warnings in Git trailers and serves them back to the agent before it edits a file",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/MongLong0214/commitlore/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

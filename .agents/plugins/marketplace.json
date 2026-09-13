@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-09-12",
+  "last_updated": "2026-09-13",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -3755,6 +3755,21 @@
       "repo": "coffee-paladin",
       "url": "https://github.com/pawelkwaczynski/coffee-paladin",
       "install_url": "https://raw.githubusercontent.com/pawelkwaczynski/coffee-paladin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "CommitLore",
+      "displayName": "CommitLore",
+      "description": "Keeps constraints, rejected alternatives, and warnings in Git trailers and serves them back to the agent before it edits a file",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "MongLong0214",
+      "repo": "commitlore",
+      "url": "https://github.com/MongLong0214/commitlore",
+      "install_url": "https://raw.githubusercontent.com/MongLong0214/commitlore/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Contexo",
