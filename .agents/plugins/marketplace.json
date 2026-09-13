@@ -3652,6 +3652,21 @@
       "install_url": "https://raw.githubusercontent.com/Temikus/claude-watchdog/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "claude-council",
+      "displayName": "claude-council",
+      "description": "Claude Code plugin that asks Gemini, OpenAI, Grok, Perplexity, Kimi, OpenRouter models, the Codex, Cursor, Grok and Kimi CLIs and a local ollama model the same question in parallel and lines the answers up with a synthesis of where they agree and differ",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "hex",
+      "repo": "claude-council",
+      "url": "https://github.com/hex/claude-council",
+      "install_url": "https://raw.githubusercontent.com/hex/claude-council/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "claude-image-gen",
       "displayName": "claude-image-gen",
       "description": "AI-powered image generation using Google Gemini or OpenAI (gpt-image-2), integrated with Claude Code via Skills or Claude.ai via MCP",
