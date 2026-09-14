@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-14",
-  "total": 381,
+  "total": 382,
   "platforms": [
     "codex",
     "grok",
@@ -5150,6 +5150,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "QVeris Agent Toolkit",
+      "url": "https://github.com/QVerisAI/qveris-agent-toolkit",
+      "owner": "QVerisAI",
+      "repo": "qveris-agent-toolkit",
+      "description": "Cross-client MCP toolkit for discovering, inspecting, quoting, and calling external tools with usage and settlement audits",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/QVerisAI/qveris-agent-toolkit/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
