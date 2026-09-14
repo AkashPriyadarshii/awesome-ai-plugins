@@ -3817,6 +3817,21 @@
       "install_url": "https://raw.githubusercontent.com/maheedhar132/Contexo/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Context Optimizer",
+      "displayName": "Context Optimizer",
+      "description": "Keep your coding agent's context small. When a session gets compacted, Context Optimizer reranks the relevant parts, drops duplicates, and compresses the rest with a local ML pipeline (LLMLingua-2 + Sentence Transformers)",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "evermeer",
+      "repo": "context-optimizer",
+      "url": "https://github.com/evermeer/context-optimizer",
+      "install_url": "https://raw.githubusercontent.com/evermeer/context-optimizer/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Contorium",
       "displayName": "Contorium",
       "description": "Runtime continuity layer for AI coding agents, providing persistent workspace state, Git-aware sessions, and MCP-based context retrieval across tools and agent runs",
