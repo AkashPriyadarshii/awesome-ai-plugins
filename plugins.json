@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-15",
-  "total": 386,
+  "total": 387,
   "platforms": [
     "codex",
     "grok",
@@ -4489,6 +4489,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Professor",
+      "url": "https://github.com/rezzminator/professor",
+      "owner": "rezzminator",
+      "repo": "professor",
+      "description": "LLM-harness fleet framework for Claude Code, Codex, and OpenCode with a Go fleet CLI/TUI, cross-chat messaging, and a discipline layer of agents, commands, and hooks compiled across all three runtimes",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rezzminator/professor/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
