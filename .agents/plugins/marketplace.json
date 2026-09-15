@@ -4717,6 +4717,21 @@
       "install_url": "https://raw.githubusercontent.com/waybarrios/opencode-power-pack/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-see-image",
+      "displayName": "opencode-see-image",
+      "description": "OpenCode plugin that gives non-vision models image and screenshot understanding by routing attachments to a vision-capable model",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "alfaoz",
+      "repo": "opencode-see-image",
+      "url": "https://github.com/alfaoz/opencode-see-image",
+      "install_url": "https://raw.githubusercontent.com/alfaoz/opencode-see-image/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "opencode-skills-collection",
       "displayName": "opencode-skills-collection",
       "description": "OpenCode plugin that bundles 1595+ skills and auto-syncs them locally, loading each on demand via pointer files",

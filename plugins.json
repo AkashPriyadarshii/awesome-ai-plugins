@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-15",
-  "total": 383,
+  "total": 384,
   "platforms": [
     "codex",
     "grok",
@@ -4405,6 +4405,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/waybarrios/opencode-power-pack/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "opencode-see-image",
+      "url": "https://github.com/alfaoz/opencode-see-image",
+      "owner": "alfaoz",
+      "repo": "opencode-see-image",
+      "description": "OpenCode plugin that gives non-vision models image and screenshot understanding by routing attachments to a vision-capable model",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/alfaoz/opencode-see-image/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
