@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-15",
-  "total": 385,
+  "total": 386,
   "platforms": [
     "codex",
     "grok",
@@ -4424,6 +4424,20 @@
       ]
     },
     {
+      "name": "opencode-plugin-peers",
+      "url": "https://github.com/jkrandom-sudo/opencode-plugin-peers",
+      "owner": "jkrandom-sudo",
+      "repo": "opencode-plugin-peers",
+      "description": "OpenCode plugin for cross-session messaging: independent instances on the same machine discover each other and exchange plain-text messages",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/jkrandom-sudo/opencode-plugin-peers/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "opencode-see-image",
       "url": "https://github.com/alfaoz/opencode-see-image",
       "owner": "alfaoz",
@@ -4980,7 +4994,8 @@
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/TencentCloudBase/CloudBase-AI-Toolkit/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "codex"
+        "codex",
+        "kimi"
       ]
     },
     {

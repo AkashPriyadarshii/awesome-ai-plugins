@@ -4732,6 +4732,21 @@
       "install_url": "https://raw.githubusercontent.com/jkrandom-sudo/opencode-plugin-loop/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-plugin-peers",
+      "displayName": "opencode-plugin-peers",
+      "description": "OpenCode plugin for cross-session messaging: independent instances on the same machine discover each other and exchange plain-text messages",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "jkrandom-sudo",
+      "repo": "opencode-plugin-peers",
+      "url": "https://github.com/jkrandom-sudo/opencode-plugin-peers",
+      "install_url": "https://raw.githubusercontent.com/jkrandom-sudo/opencode-plugin-peers/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "opencode-see-image",
       "displayName": "opencode-see-image",
       "description": "OpenCode plugin that gives non-vision models image and screenshot understanding by routing attachments to a vision-capable model",
@@ -5324,7 +5339,8 @@
       "source": "awesome-ai-plugins",
       "platform": "codex",
       "ecosystems": [
-        "codex"
+        "codex",
+        "kimi"
       ],
       "owner": "TencentCloudBase",
       "repo": "CloudBase-AI-Toolkit",
