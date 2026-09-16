@@ -1310,6 +1310,21 @@
       "install_url": "https://raw.githubusercontent.com/AltByteSG/personal-data-protection-skill/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Pixeltable",
+      "displayName": "Pixeltable",
+      "description": "Declarative multimodal AI data engine for tables, computed columns, embedding search, agents, and FastAPI services.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "pixeltable",
+      "repo": "pixeltable-skill",
+      "url": "https://github.com/pixeltable/pixeltable-skill",
+      "install_url": "https://raw.githubusercontent.com/pixeltable/pixeltable-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "PMC",
       "displayName": "PMC",
       "description": "Give Codex lasting project context in an Obsidian vault you control.",
@@ -4822,21 +4837,6 @@
       "install_url": "https://raw.githubusercontent.com/ictinnovations/pbx-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "Pixeltable",
-      "displayName": "Pixeltable",
-      "description": "Declarative multimodal AI data engine for tables, computed columns, embedding search, agents, and FastAPI services",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "pixeltable",
-      "repo": "pixeltable-skill",
-      "url": "https://github.com/pixeltable/pixeltable-skill",
-      "install_url": "https://raw.githubusercontent.com/pixeltable/pixeltable-skill/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "Planning with Files",
       "displayName": "Planning with Files",
       "description": "Persistent file-based planning for Claude Code, Codex, and other AI coding agents, preserving task plans, findings, and progress across context loss, crashes, and compaction",
@@ -5060,6 +5060,21 @@
       "repo": "ssot-check",
       "url": "https://github.com/conorbronsdon/ssot-check",
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/ssot-check/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "StyleSeed",
+      "displayName": "StyleSeed",
+      "description": "Compiles your project's design decisions into a lock file, then enforces them on Claude Code, Codex, and Cursor output with code and rendered-pixel gates so screens stay consistent across sessions",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "bitjaru",
+      "repo": "styleseed",
+      "url": "https://github.com/bitjaru/styleseed",
+      "install_url": "https://raw.githubusercontent.com/bitjaru/styleseed/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Stvena",

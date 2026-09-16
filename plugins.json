@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-16",
-  "total": 392,
+  "total": 393,
   "platforms": [
     "codex",
     "grok",
@@ -1224,6 +1224,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AltByteSG/personal-data-protection-skill/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Pixeltable",
+      "url": "https://github.com/pixeltable/pixeltable-skill",
+      "owner": "pixeltable",
+      "repo": "pixeltable-skill",
+      "description": "Declarative multimodal AI data engine for tables, computed columns, embedding search, agents, and FastAPI services.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/pixeltable/pixeltable-skill/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -4508,20 +4522,6 @@
       ]
     },
     {
-      "name": "Pixeltable",
-      "url": "https://github.com/pixeltable/pixeltable-skill",
-      "owner": "pixeltable",
-      "repo": "pixeltable-skill",
-      "description": "Declarative multimodal AI data engine for tables, computed columns, embedding search, agents, and FastAPI services",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/pixeltable/pixeltable-skill/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "Planning with Files",
       "url": "https://github.com/OthmanAdi/planning-with-files",
       "owner": "OthmanAdi",
@@ -4727,6 +4727,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/ssot-check/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "StyleSeed",
+      "url": "https://github.com/bitjaru/styleseed",
+      "owner": "bitjaru",
+      "repo": "styleseed",
+      "description": "Compiles your project's design decisions into a lock file, then enforces them on Claude Code, Codex, and Cursor output with code and rendered-pixel gates so screens stay consistent across sessions",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/bitjaru/styleseed/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
