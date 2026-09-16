@@ -4822,6 +4822,21 @@
       "install_url": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "pm-claude-skills",
+      "displayName": "pm-claude-skills",
+      "description": "Open-source library of 1174 plain-markdown agent skills for Claude Code, Codex, Gemini, and Cursor, covering professional and life tasks with built-in quality checks and anti-patterns",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "mohitagw15856",
+      "repo": "pm-claude-skills",
+      "url": "https://github.com/mohitagw15856/pm-claude-skills",
+      "install_url": "https://raw.githubusercontent.com/mohitagw15856/pm-claude-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Professor",
       "displayName": "Professor",
       "description": "LLM-harness fleet framework for Claude Code, Codex, and OpenCode with a Go fleet CLI/TUI, cross-chat messaging, and a discipline layer of agents, commands, and hooks compiled across all three runtimes",

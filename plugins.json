@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-16",
-  "total": 389,
+  "total": 390,
   "platforms": [
     "codex",
     "grok",
@@ -4503,6 +4503,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "pm-claude-skills",
+      "url": "https://github.com/mohitagw15856/pm-claude-skills",
+      "owner": "mohitagw15856",
+      "repo": "pm-claude-skills",
+      "description": "Open-source library of 1174 plain-markdown agent skills for Claude Code, Codex, Gemini, and Cursor, covering professional and life tasks with built-in quality checks and anti-patterns",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/mohitagw15856/pm-claude-skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
