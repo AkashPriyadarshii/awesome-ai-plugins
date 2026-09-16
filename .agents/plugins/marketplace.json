@@ -5876,6 +5876,20 @@
       "install_url": "https://raw.githubusercontent.com/FineComputer14451/Grok-Imagine-Cinematic-Studio/HEAD/.grok-plugin/plugin.json"
     },
     {
+      "name": "dsh-api-balance",
+      "displayName": "dsh-api-balance",
+      "description": "API usage-balance panel for DeepSeek Harness: adds a \u300cUsage / Balance\u300d tab to the webui usage ring showing the account balance and today / this-month / 30-day cost with charts, acquiring the platform token automatically from local browser sessions",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
+      ],
+      "owner": "Kihara777",
+      "repo": "dsh-api-balance",
+      "url": "https://github.com/Kihara777/dsh-api-balance"
+    },
+    {
       "name": "dsh-config-manager",
       "displayName": "dsh-config-manager",
       "description": "Backup, restore, export, import, migrate and sync your complete DeepSeek Harness (DSH) configuration \u2014 settings, model providers, plugins, MCP servers, skills, agent presets and workspaces \u2014 and restore your whole environment on a new machine with one click",
