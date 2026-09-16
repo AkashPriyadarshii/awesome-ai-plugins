@@ -3892,6 +3892,21 @@
       "install_url": "https://raw.githubusercontent.com/drobins25/craft/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "de-anthropocentric-research-engine",
+      "displayName": "de-anthropocentric-research-engine",
+      "description": "Collection of 900+ markdown research skills that let Claude Code autonomously survey literature, find gaps, form hypotheses, and design experiments",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "yogsoth-ai",
+      "repo": "de-anthropocentric-research-engine",
+      "url": "https://github.com/yogsoth-ai/de-anthropocentric-research-engine",
+      "install_url": "https://raw.githubusercontent.com/yogsoth-ai/de-anthropocentric-research-engine/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Dely",
       "displayName": "Dely",
       "description": "Multi-harness control protocol that turns requests into approved design contracts, orchestrating isolated worker sessions for sequential implementation and independent code reviews under Orca supervision for Claude Code, Codex, Cursor, Antigravity, and other AI coding agents",

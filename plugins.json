@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-16",
-  "total": 390,
+  "total": 391,
   "platforms": [
     "codex",
     "grok",
@@ -3635,6 +3635,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/drobins25/craft/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "de-anthropocentric-research-engine",
+      "url": "https://github.com/yogsoth-ai/de-anthropocentric-research-engine",
+      "owner": "yogsoth-ai",
+      "repo": "de-anthropocentric-research-engine",
+      "description": "Collection of 900+ markdown research skills that let Claude Code autonomously survey literature, find gaps, form hypotheses, and design experiments",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/yogsoth-ai/de-anthropocentric-research-engine/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
