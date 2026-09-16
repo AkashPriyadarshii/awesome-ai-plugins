@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-16",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -4702,6 +4702,21 @@
       "install_url": "https://raw.githubusercontent.com/agnusdei1207/opencode-orchestrator/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-models-discovery",
+      "displayName": "opencode-models-discovery",
+      "description": "OpenCode plugin that dynamically discovers models from OpenAI-compatible providers and injects them into provider config with filtering and metadata enrichment",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "yuhp",
+      "repo": "opencode-models-discovery",
+      "url": "https://github.com/yuhp/opencode-models-discovery",
+      "install_url": "https://raw.githubusercontent.com/yuhp/opencode-models-discovery/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "OpenCode Power Pack",
       "displayName": "OpenCode Power Pack",
       "description": "Fifty-four portable development and security workflows for Codex, Claude Code, OpenCode, and Pi, with opt-in native sandbox profiles for safer command execution",
@@ -5225,6 +5240,21 @@
       "repo": "windrunner",
       "url": "https://github.com/shzlw/windrunner",
       "install_url": "https://raw.githubusercontent.com/shzlw/windrunner/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "YYLO",
+      "displayName": "YYLO",
+      "description": "Command-line orchestrator for coding agents that creates a dedicated branch/worktree per task, delegates to Pi and Codex subagents, and enforces typed task, validation, merge, and release-readiness boundaries with receipt-backed repository changes",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "yylo-dev",
+      "repo": "yylo",
+      "url": "https://github.com/yylo-dev/yylo",
+      "install_url": "https://raw.githubusercontent.com/yylo-dev/yylo/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "AgentCall",
