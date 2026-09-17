@@ -4747,21 +4747,6 @@
       "install_url": "https://raw.githubusercontent.com/agnusdei1207/opencode-orchestrator/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "opencode-models-discovery",
-      "displayName": "opencode-models-discovery",
-      "description": "OpenCode plugin that dynamically discovers models from OpenAI-compatible providers and injects them into provider config with filtering and metadata enrichment",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "yuhp",
-      "repo": "opencode-models-discovery",
-      "url": "https://github.com/yuhp/opencode-models-discovery",
-      "install_url": "https://raw.githubusercontent.com/yuhp/opencode-models-discovery/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "OpenCode Power Pack",
       "displayName": "OpenCode Power Pack",
       "description": "Fifty-four portable development and security workflows for Codex, Claude Code, OpenCode, and Pi, with opt-in native sandbox profiles for safer command execution",
@@ -4775,6 +4760,21 @@
       "repo": "opencode-power-pack",
       "url": "https://github.com/waybarrios/opencode-power-pack",
       "install_url": "https://raw.githubusercontent.com/waybarrios/opencode-power-pack/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "opencode-models-discovery",
+      "displayName": "opencode-models-discovery",
+      "description": "OpenCode plugin that dynamically discovers models from OpenAI-compatible providers and injects them into provider config with filtering and metadata enrichment",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "yuhp",
+      "repo": "opencode-models-discovery",
+      "url": "https://github.com/yuhp/opencode-models-discovery",
+      "install_url": "https://raw.githubusercontent.com/yuhp/opencode-models-discovery/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "opencode-plugin-loop",
@@ -5002,6 +5002,21 @@
       "install_url": "https://raw.githubusercontent.com/seoskillsai/seo-skills-ai/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "session-handoff",
+      "displayName": "session-handoff",
+      "description": "Create handoffs and migrate sessions between Claude Code and Codex",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "yuzushi-dev",
+      "repo": "session-handoff",
+      "url": "https://github.com/yuzushi-dev/session-handoff",
+      "install_url": "https://raw.githubusercontent.com/yuzushi-dev/session-handoff/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "silica",
       "displayName": "silica",
       "description": "Serves an Obsidian vault as the agent's memory over MCP: semantic and literal recall, gated note writing, and hooks that open each session already knowing its vault",
@@ -5077,21 +5092,6 @@
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/ssot-check/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "StyleSeed",
-      "displayName": "StyleSeed",
-      "description": "Compiles your project's design decisions into a lock file, then enforces them on Claude Code, Codex, and Cursor output with code and rendered-pixel gates so screens stay consistent across sessions",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "bitjaru",
-      "repo": "styleseed",
-      "url": "https://github.com/bitjaru/styleseed",
-      "install_url": "https://raw.githubusercontent.com/bitjaru/styleseed/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "Stvena",
       "displayName": "Stvena",
       "description": "Terminal workspace for running Codex or Claude Code beside live diffs, full-file review, checks, staging, and precise code feedback",
@@ -5105,6 +5105,21 @@
       "repo": "stvena",
       "url": "https://github.com/nccapo/stvena",
       "install_url": "https://raw.githubusercontent.com/nccapo/stvena/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "StyleSeed",
+      "displayName": "StyleSeed",
+      "description": "Compiles your project's design decisions into a lock file, then enforces them on Claude Code, Codex, and Cursor output with code and rendered-pixel gates so screens stay consistent across sessions",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "bitjaru",
+      "repo": "styleseed",
+      "url": "https://github.com/bitjaru/styleseed",
+      "install_url": "https://raw.githubusercontent.com/bitjaru/styleseed/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Suede Creator Skills",
@@ -5724,21 +5739,6 @@
       "repo": "scholar-feed-mcp",
       "url": "https://github.com/YGao2005/scholar-feed-mcp",
       "install_url": "https://raw.githubusercontent.com/YGao2005/scholar-feed-mcp/HEAD/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "session-handoff",
-      "displayName": "session-handoff",
-      "description": "Create handoffs and migrate sessions between Claude Code and Codex",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "yuzushi-dev",
-      "repo": "session-handoff",
-      "url": "https://github.com/yuzushi-dev/session-handoff",
-      "install_url": "https://raw.githubusercontent.com/yuzushi-dev/session-handoff/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "site-spec",
