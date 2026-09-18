@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-18",
-  "total": 409,
+  "total": 410,
   "platforms": [
     "codex",
     "grok",
@@ -3440,6 +3440,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Onur45500/bury-bench/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "chat-history",
+      "url": "https://github.com/ay-bh/chat-history",
+      "owner": "ay-bh",
+      "repo": "chat-history",
+      "description": "Claude Code/Codex/Cursor history search + export",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ay-bh/chat-history/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

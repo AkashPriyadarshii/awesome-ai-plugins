@@ -3682,6 +3682,21 @@
       "install_url": "https://raw.githubusercontent.com/Onur45500/bury-bench/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "chat-history",
+      "displayName": "chat-history",
+      "description": "Claude Code/Codex/Cursor history search + export",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ay-bh",
+      "repo": "chat-history",
+      "url": "https://github.com/ay-bh/chat-history",
+      "install_url": "https://raw.githubusercontent.com/ay-bh/chat-history/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Claude Watchdog",
       "displayName": "Claude Watchdog",
       "description": "Stop hook that runs a critical post-mortem on every Claude Code session, cross-checking what was asked against the actual git diff for missed goals, wasted detours, and unverified claims",
