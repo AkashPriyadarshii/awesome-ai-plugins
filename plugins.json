@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-18",
-  "total": 410,
+  "total": 412,
   "platforms": [
     "codex",
     "grok",
@@ -3361,6 +3361,20 @@
       ]
     },
     {
+      "name": "Azzle",
+      "url": "https://github.com/azzle-lab/azzle",
+      "owner": "azzle-lab",
+      "repo": "azzle",
+      "description": "Base-native task coordination and settlement for AI agents, exposed through a hosted MCP server and TypeScript agent SDK",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/azzle-lab/azzle/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Audio Plugin Coder",
       "url": "https://github.com/Noizefield/audio-plugin-coder",
       "owner": "Noizefield",
@@ -4098,6 +4112,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/jkudish/jev-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "jev-harness",
+      "url": "https://github.com/AntonioCoppe/jev-harness",
+      "owner": "AntonioCoppe",
+      "repo": "jev-harness",
+      "description": "Decision harness for TypeSafe Jev (confidence gates, shadow mode, recipes, eval CLI)",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/AntonioCoppe/jev-harness/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

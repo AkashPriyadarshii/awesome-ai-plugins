@@ -3592,6 +3592,21 @@
       "install_url": "https://raw.githubusercontent.com/Dunphil692/antigravity-context-meter/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Azzle",
+      "displayName": "Azzle",
+      "description": "Base-native task coordination and settlement for AI agents, exposed through a hosted MCP server and TypeScript agent SDK",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "azzle-lab",
+      "repo": "azzle",
+      "url": "https://github.com/azzle-lab/azzle",
+      "install_url": "https://raw.githubusercontent.com/azzle-lab/azzle/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Audio Plugin Coder",
       "displayName": "Audio Plugin Coder",
       "description": "Agent-agnostic JUCE workflow for building VST3/AU plugins from idea through design, implementation, test, and installer packaging",
@@ -4385,6 +4400,21 @@
       "repo": "jev-mcp",
       "url": "https://github.com/jkudish/jev-mcp",
       "install_url": "https://raw.githubusercontent.com/jkudish/jev-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "jev-harness",
+      "displayName": "jev-harness",
+      "description": "Decision harness for TypeSafe Jev (confidence gates, shadow mode, recipes, eval CLI)",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "AntonioCoppe",
+      "repo": "jev-harness",
+      "url": "https://github.com/AntonioCoppe/jev-harness",
+      "install_url": "https://raw.githubusercontent.com/AntonioCoppe/jev-harness/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Jump Skills",
