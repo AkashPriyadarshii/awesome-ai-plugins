@@ -3592,21 +3592,6 @@
       "install_url": "https://raw.githubusercontent.com/Dunphil692/antigravity-context-meter/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "Azzle",
-      "displayName": "Azzle",
-      "description": "Base-native task coordination and settlement for AI agents, exposed through a hosted MCP server and TypeScript agent SDK",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "azzle-lab",
-      "repo": "azzle",
-      "url": "https://github.com/azzle-lab/azzle",
-      "install_url": "https://raw.githubusercontent.com/azzle-lab/azzle/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "Audio Plugin Coder",
       "displayName": "Audio Plugin Coder",
       "description": "Agent-agnostic JUCE workflow for building VST3/AU plugins from idea through design, implementation, test, and installer packaging",
@@ -3635,6 +3620,21 @@
       "repo": "avoid-ai-writing",
       "url": "https://github.com/conorbronsdon/avoid-ai-writing",
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/avoid-ai-writing/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Azzle",
+      "displayName": "Azzle",
+      "description": "Base-native task coordination and settlement for AI agents, exposed through a hosted MCP server and TypeScript agent SDK",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "azzle-lab",
+      "repo": "azzle",
+      "url": "https://github.com/azzle-lab/azzle",
+      "install_url": "https://raw.githubusercontent.com/azzle-lab/azzle/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Better Harness",
@@ -5874,6 +5874,21 @@
       "repo": "openai-compatible-imagegen",
       "url": "https://github.com/Syh1906/openai-compatible-imagegen",
       "install_url": "https://raw.githubusercontent.com/Syh1906/openai-compatible-imagegen/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Overleaf LaTeX",
+      "displayName": "Overleaf LaTeX",
+      "description": "Local MCP/Codex plugin for creating and editing Overleaf projects",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "MarcoDotIO",
+      "repo": "overleaf-latex",
+      "url": "https://github.com/MarcoDotIO/overleaf-latex",
+      "install_url": "https://raw.githubusercontent.com/MarcoDotIO/overleaf-latex/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "ParlayAPI",
