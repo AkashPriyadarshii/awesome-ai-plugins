@@ -24,6 +24,7 @@ PR_NUMBER = os.environ.get("PR_NUMBER", "")
 PR_TITLE = os.environ.get("PR_TITLE", "")
 PR_AUTHOR = os.environ.get("PR_AUTHOR", "")
 REPO_FULL = os.environ.get("GITHUB_REPOSITORY", "")
+MAX_CATALOG_PAGES = 10
 
 # Skip titles that aren't new plugin additions
 SKIP_PATTERNS = [
@@ -56,6 +57,10 @@ SKIP_PATTERNS = [
     r"ci\(workflows\)",
     r"Add HOL Guard scanner",
 ]
+
+
+class RegistryCatalogFetchError(RuntimeError):
+    """Raised when Registry catalog evidence is unavailable or incomplete."""
 
 
 def build_comment_body(author: str, repositories=(), pending_repositories=()) -> str:
@@ -153,31 +158,43 @@ def should_skip_title(title: str) -> bool:
 
 
 def fetch_catalog_repos(owner_verified: bool = False):
-    """Fetch repos from the registry catalog, optionally filtered by owner verification.
+    """Fetch a complete Registry catalog repo set.
 
-    Returns a set of lowercase 'owner/repo' strings.
+    Missing/failed pages and pagination that exceeds the configured bound are
+    errors, not evidence that a repository is absent. This prevents transient
+    Registry failures from producing irreversible claim-notice markers.
     """
     repos = set()
     cursor = None
     base_url = f"{REGISTRY_API}/plugins/catalog?limit=50"
     if owner_verified:
         base_url += "&ownerVerified=true"
-    url = base_url
-    for _ in range(10):
-        if cursor:
-            url = f"{base_url}&cursor={cursor}"
+
+    for page_index in range(MAX_CATALOG_PAGES):
+        url = base_url if not cursor else f"{base_url}&cursor={cursor}"
         data = api_request(url)
-        if not data or "items" not in data:
-            break
+        if not isinstance(data, dict) or not isinstance(data.get("items"), list):
+            raise RegistryCatalogFetchError(
+                f"registry catalog page {page_index + 1} unavailable"
+            )
+
         for plugin in data["items"]:
+            if not isinstance(plugin, dict):
+                continue
             repo = plugin.get("sourceRepo") or plugin.get("repository") or ""
+            if not isinstance(repo, str):
+                continue
             repo = repo.replace("https://github.com/", "").strip()
             if repo:
                 repos.add(repo.lower())
+
         cursor = data.get("nextCursor")
         if not cursor:
-            break
-    return repos
+            return repos
+
+    raise RegistryCatalogFetchError(
+        f"registry catalog exceeded {MAX_CATALOG_PAGES} pages"
+    )
 
 
 def normalize_repo_url(raw: str) -> str:
@@ -298,9 +315,15 @@ def main():
 
     print(f"  Found repos in diff: {', '.join(pr_repos)}")
 
-    # 4. Fetch all registry plugins
+    # 4. Fetch a complete Registry snapshot. A failed/partial snapshot is not
+    # evidence that a repository is still syncing, so fail closed without
+    # posting a marker and allow a later workflow dispatch to recover.
     print("  Fetching registry catalog...")
-    registry_repos = fetch_catalog_repos(owner_verified=False)
+    try:
+        registry_repos = fetch_catalog_repos(owner_verified=False)
+    except RegistryCatalogFetchError as error:
+        print(f"  Skipping: Registry catalog unavailable ({error})", file=sys.stderr)
+        return 0
     print(f"  Registry has {len(registry_repos)} plugins")
 
     # 5. Split live Registry repos from catalog-source repos that are still syncing.
@@ -326,11 +349,20 @@ def main():
         print(f"  Live in registry: {', '.join(sorted(live_repos))}")
 
     # 6. Check owner verification only for repos actually live in the Registry.
-    print("  Checking owner verification status...")
-    verified_repos = fetch_catalog_repos(owner_verified=True)
-    already_verified = live_repos & verified_repos
-    claimable_repos = live_repos - already_verified
+    already_verified = set()
+    if live_repos:
+        print("  Checking owner verification status...")
+        try:
+            verified_repos = fetch_catalog_repos(owner_verified=True)
+        except RegistryCatalogFetchError as error:
+            print(
+                f"  Skipping: owner-verification catalog unavailable ({error})",
+                file=sys.stderr,
+            )
+            return 0
+        already_verified = live_repos & verified_repos
 
+    claimable_repos = live_repos - already_verified
     if already_verified:
         print(f"  Already verified: {', '.join(sorted(already_verified))}")
 
