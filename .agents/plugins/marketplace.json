@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-18",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -4072,6 +4072,21 @@
       "install_url": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "GitCortex",
+      "displayName": "GitCortex",
+      "description": "Branch-aware knowledge graph of a Git repo that incrementally re-indexes via tree-sitter and exposes it to AI coding assistants over MCP",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "bharath03-a",
+      "repo": "GitCortex",
+      "url": "https://github.com/bharath03-a/GitCortex",
+      "install_url": "https://raw.githubusercontent.com/bharath03-a/GitCortex/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Globalping",
       "displayName": "Globalping",
       "description": "Access thousands of probes around the world to run network tests such as ping, traceroute, http, dns and mtr",
@@ -4297,6 +4312,21 @@
       "install_url": "https://raw.githubusercontent.com/ictinnovations/ictpbx-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "idea-diamond",
+      "displayName": "idea-diamond",
+      "description": "A Claude Code plugin for startup idea validation with predefined decision criteria, parallel research, skeptical review, and a human decision gate",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "luckysharda",
+      "repo": "idea-diamond",
+      "url": "https://github.com/luckysharda/idea-diamond",
+      "install_url": "https://raw.githubusercontent.com/luckysharda/idea-diamond/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "iris-agentic-dev",
       "displayName": "iris-agentic-dev",
       "description": "MCP server giving AI assistants live access to InterSystems IRIS \u2014 execute ObjectScript, query globals, inspect productions, run tests, search code, and manage skills",
@@ -4310,6 +4340,36 @@
       "repo": "iris-agentic-dev",
       "url": "https://github.com/intersystems-community/iris-agentic-dev",
       "install_url": "https://raw.githubusercontent.com/intersystems-community/iris-agentic-dev/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "Jev Browser",
+      "displayName": "Jev Browser",
+      "description": "Fast, very cheap browser use for agents: Jev picks every action, code owns the loop, and you get the final page, an auditable step trace, console errors, and a screenshot; MCP server, CLI, or library",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "jkudish",
+      "repo": "jev-browser",
+      "url": "https://github.com/jkudish/jev-browser",
+      "install_url": "https://raw.githubusercontent.com/jkudish/jev-browser/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Jev MCP",
+      "displayName": "Jev MCP",
+      "description": "Fast, sub-cent typed judgments for agents, such as verifying claims against evidence, screening content for prompt injection before it enters context, and ranking candidates by meaning, each with probabilities and confidence in milliseconds",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "jkudish",
+      "repo": "jev-mcp",
+      "url": "https://github.com/jkudish/jev-mcp",
+      "install_url": "https://raw.githubusercontent.com/jkudish/jev-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Jump Skills",

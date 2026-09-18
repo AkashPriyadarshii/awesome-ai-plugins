@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-09-17",
-  "total": 404,
+  "last_updated": "2026-09-18",
+  "total": 408,
   "platforms": [
     "codex",
     "grok",
@@ -3809,6 +3809,20 @@
       ]
     },
     {
+      "name": "GitCortex",
+      "url": "https://github.com/bharath03-a/GitCortex",
+      "owner": "bharath03-a",
+      "repo": "GitCortex",
+      "description": "Branch-aware knowledge graph of a Git repo that incrementally re-indexes via tree-sitter and exposes it to AI coding assistants over MCP",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/bharath03-a/GitCortex/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Globalping",
       "url": "https://github.com/jsdelivr/globalping-mcp-server",
       "owner": "jsdelivr",
@@ -4019,6 +4033,20 @@
       ]
     },
     {
+      "name": "idea-diamond",
+      "url": "https://github.com/luckysharda/idea-diamond",
+      "owner": "luckysharda",
+      "repo": "idea-diamond",
+      "description": "A Claude Code plugin for startup idea validation with predefined decision criteria, parallel research, skeptical review, and a human decision gate",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/luckysharda/idea-diamond/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "iris-agentic-dev",
       "url": "https://github.com/intersystems-community/iris-agentic-dev",
       "owner": "intersystems-community",
@@ -4030,6 +4058,34 @@
       "install_url": "https://raw.githubusercontent.com/intersystems-community/iris-agentic-dev/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "Jev Browser",
+      "url": "https://github.com/jkudish/jev-browser",
+      "owner": "jkudish",
+      "repo": "jev-browser",
+      "description": "Fast, very cheap browser use for agents: Jev picks every action, code owns the loop, and you get the final page, an auditable step trace, console errors, and a screenshot; MCP server, CLI, or library",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/jkudish/jev-browser/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Jev MCP",
+      "url": "https://github.com/jkudish/jev-mcp",
+      "owner": "jkudish",
+      "repo": "jev-mcp",
+      "description": "Fast, sub-cent typed judgments for agents, such as verifying claims against evidence, screening content for prompt injection before it enters context, and ranking candidates by meaning, each with probabilities and confidence in milliseconds",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/jkudish/jev-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
