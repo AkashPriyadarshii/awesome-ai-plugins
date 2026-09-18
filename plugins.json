@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-18",
-  "total": 408,
+  "total": 409,
   "platforms": [
     "codex",
     "grok",
@@ -4481,6 +4481,20 @@
       ]
     },
     {
+      "name": "NixKits",
+      "url": "https://github.com/Kihara777/NixKits",
+      "owner": "Kihara777",
+      "repo": "NixKits",
+      "description": "Declarative Nix flake collection that keeps coding-agent packages and NixOS modules updated and reproducible, with maintenance skills covering upstream version checks, NixOS CLI usage, config recovery, and multilingual project docs",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Kihara777/NixKits/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Oh My Design",
       "url": "https://github.com/3x-haust/oh-my-design",
       "owner": "3x-haust",
@@ -4551,6 +4565,20 @@
       ]
     },
     {
+      "name": "opencode-nexus",
+      "url": "https://github.com/mohammad154/opencode-nexus",
+      "owner": "mohammad154",
+      "repo": "opencode-nexus",
+      "description": "OpenCode plugin with a fixed three-agent execution workflow, conditional planning advice, fresh impact analysis, deterministic verification, and durable run state",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/mohammad154/opencode-nexus/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "opencode-plugin-loop",
       "url": "https://github.com/jkrandom-sudo/opencode-plugin-loop",
       "owner": "jkrandom-sudo",
@@ -4602,20 +4630,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/FrancoStino/opencode-skills-collection/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "opencode-nexus",
-      "url": "https://github.com/mohammad154/opencode-nexus",
-      "owner": "mohammad154",
-      "repo": "opencode-nexus",
-      "description": "OpenCode plugin with a fixed three-agent execution workflow, conditional planning advice, fresh impact analysis, deterministic verification, and durable run state",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/mohammad154/opencode-nexus/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
