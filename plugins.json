@@ -5265,20 +5265,6 @@
       ]
     },
     {
-      "name": "claude-music",
-      "url": "https://github.com/h-3303/claude-music",
-      "owner": "h-3303",
-      "repo": "claude-music",
-      "description": "Claude Code plugin that imports a streaming playlist export, matches it against the local library via MusicBrainz, fetches the missing tracks through the user's own Nicotine+ (Soulseek) client with approval, writes an M3U, then tidies the library",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/h-3303/claude-music/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "CloudBase AI Toolkit",
       "url": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit",
       "owner": "TencentCloudBase",
@@ -5331,6 +5317,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/citrolabs/ego-lite/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "flacli",
+      "url": "https://github.com/h-3303/flacli",
+      "owner": "h-3303",
+      "repo": "flacli",
+      "description": "CLI, MCP servers and Claude Code plugin that take named albums or a playlist (TIDAL, Deezer, YouTube Music, export files), match them against the local library via MusicBrainz, fetch the missing tracks through the user's own Nicotine+ (Soulseek) client, then file, tag and tidy the library; successor to claude-music",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/h-3303/flacli/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

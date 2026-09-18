@@ -5632,21 +5632,6 @@
       "install_url": "https://raw.githubusercontent.com/getcargohq/cargo-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "claude-music",
-      "displayName": "claude-music",
-      "description": "Claude Code plugin that imports a streaming playlist export, matches it against the local library via MusicBrainz, fetches the missing tracks through the user's own Nicotine+ (Soulseek) client with approval, writes an M3U, then tidies the library",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "h-3303",
-      "repo": "claude-music",
-      "url": "https://github.com/h-3303/claude-music",
-      "install_url": "https://raw.githubusercontent.com/h-3303/claude-music/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "CloudBase AI Toolkit",
       "displayName": "CloudBase AI Toolkit",
       "description": "Backend for AI coding agents on Tencent CloudBase \u2014 database, auth, and functions via Plugin, Skills & MCP",
@@ -5706,6 +5691,21 @@
       "repo": "ego-lite",
       "url": "https://github.com/citrolabs/ego-lite",
       "install_url": "https://raw.githubusercontent.com/citrolabs/ego-lite/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "flacli",
+      "displayName": "flacli",
+      "description": "CLI, MCP servers and Claude Code plugin that take named albums or a playlist (TIDAL, Deezer, YouTube Music, export files), match them against the local library via MusicBrainz, fetch the missing tracks through the user's own Nicotine+ (Soulseek) client, then file, tag and tidy the library; successor to claude-music",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "h-3303",
+      "repo": "flacli",
+      "url": "https://github.com/h-3303/flacli",
+      "install_url": "https://raw.githubusercontent.com/h-3303/flacli/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "GodotPrompter",
