@@ -3532,6 +3532,21 @@
       "install_url": "https://raw.githubusercontent.com/moasq/agentic-ship/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Agnostic-AI",
+      "displayName": "Agnostic-AI",
+      "description": "Capture your Claude Code or Codex harness once (rules, hooks, skills, subagents, commands and MCP servers) and apply it identically to Gemini CLI, Cursor, Antigravity and 16 more clients",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ucsandman",
+      "repo": "Agnostic-AI",
+      "url": "https://github.com/ucsandman/Agnostic-AI",
+      "install_url": "https://raw.githubusercontent.com/ucsandman/Agnostic-AI/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "AI Video Transcriber",
       "displayName": "AI Video Transcriber",
       "description": "Transcribe and summarize videos, podcasts, and local media via a Codex plugin, Claude Code skill, and MCP server",
@@ -4490,6 +4505,21 @@
       "repo": "jev-harness",
       "url": "https://github.com/AntonioCoppe/jev-harness",
       "install_url": "https://raw.githubusercontent.com/AntonioCoppe/jev-harness/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Jevbridge",
+      "displayName": "Jevbridge",
+      "description": "OSS ACP/MCP adapter that bridges TypeSafe Jev with any LLM, putting computer use and typed decisions alongside Codex, Claude, Grok, and OpenCode without replacing those hosts",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "tacticocc",
+      "repo": "Jevbridge",
+      "url": "https://github.com/tacticocc/Jevbridge",
+      "install_url": "https://raw.githubusercontent.com/tacticocc/Jevbridge/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "JevScout",
