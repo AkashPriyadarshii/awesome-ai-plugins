@@ -4162,6 +4162,21 @@
       "install_url": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "FlowBoard",
+      "displayName": "FlowBoard",
+      "description": "Local-first project workspace and task-coordination plugin for OpenClaw and external coding agents, with lazy-loaded context and a shared Kanban board",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "rasimme",
+      "repo": "FlowBoard",
+      "url": "https://github.com/rasimme/FlowBoard",
+      "install_url": "https://raw.githubusercontent.com/rasimme/FlowBoard/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "GitCortex",
       "displayName": "GitCortex",
       "description": "Branch-aware knowledge graph of a Git repo that incrementally re-indexes via tree-sitter and exposes it to AI coding assistants over MCP",

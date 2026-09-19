@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-19",
-  "total": 431,
+  "total": 432,
   "platforms": [
     "codex",
     "grok",
@@ -3888,6 +3888,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "FlowBoard",
+      "url": "https://github.com/rasimme/FlowBoard",
+      "owner": "rasimme",
+      "repo": "FlowBoard",
+      "description": "Local-first project workspace and task-coordination plugin for OpenClaw and external coding agents, with lazy-loaded context and a shared Kanban board",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rasimme/FlowBoard/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
