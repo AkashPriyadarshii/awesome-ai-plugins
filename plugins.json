@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-19",
-  "total": 430,
+  "total": 431,
   "platforms": [
     "codex",
     "grok",
@@ -5501,6 +5501,20 @@
       "install_url": "https://raw.githubusercontent.com/jame581/GodotPrompter/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "GPT-6 Astra Outbound System",
+      "url": "https://github.com/heypastel/pastel-outbound-system",
+      "owner": "heypastel",
+      "repo": "pastel-outbound-system",
+      "description": "Codex plugin with 20 outbound skills and 12 agents that catch LinkedIn buying signals, qualify and rank leads, write human-sounding messages and posts, run sequences, and handle replies through the Pastel MCP, with every send approved first",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/heypastel/pastel-outbound-system/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {

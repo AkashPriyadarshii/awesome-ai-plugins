@@ -5888,6 +5888,21 @@
       "install_url": "https://raw.githubusercontent.com/jame581/GodotPrompter/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "GPT-6 Astra Outbound System",
+      "displayName": "GPT-6 Astra Outbound System",
+      "description": "Codex plugin with 20 outbound skills and 12 agents that catch LinkedIn buying signals, qualify and rank leads, write human-sounding messages and posts, run sequences, and handle replies through the Pastel MCP, with every send approved first",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "heypastel",
+      "repo": "pastel-outbound-system",
+      "url": "https://github.com/heypastel/pastel-outbound-system",
+      "install_url": "https://raw.githubusercontent.com/heypastel/pastel-outbound-system/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Hostinger API MCP",
       "displayName": "Hostinger API MCP",
       "description": "Manage Hostinger VPS, domains, DNS, hosting, and billing through MCP tools backed by the official Hostinger API",
