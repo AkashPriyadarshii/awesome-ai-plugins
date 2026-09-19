@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-19",
-  "total": 415,
+  "total": 420,
   "platforms": [
     "codex",
     "grok",
@@ -3697,6 +3697,20 @@
       ]
     },
     {
+      "name": "DataMagic",
+      "url": "https://github.com/HKUSTDial/DataMagic",
+      "owner": "HKUSTDial",
+      "repo": "DataMagic",
+      "description": "A skill that teaches coding agents to plan and render narrated animated data videos from tabular data using DVSpec",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "de-anthropocentric-research-engine",
       "url": "https://github.com/yogsoth-ai/de-anthropocentric-research-engine",
       "owner": "yogsoth-ai",
@@ -4677,6 +4691,20 @@
       ]
     },
     {
+      "name": "orchflows",
+      "url": "https://github.com/DanMcInerney/orchflows",
+      "owner": "DanMcInerney",
+      "repo": "orchflows",
+      "description": "Use 2 simple skills to build complex, composable workflows for task-specific jobs",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/DanMcInerney/orchflows/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "pbx-mcp",
       "url": "https://github.com/ictinnovations/pbx-mcp",
       "owner": "ictinnovations",
@@ -4882,6 +4910,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/stbenjam/skillsaw/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Skillstore",
+      "url": "https://github.com/aiskillstore/marketplace",
+      "owner": "aiskillstore",
+      "repo": "marketplace",
+      "description": "Security-audited Agent Skills marketplace with one-command installation for Claude Code and Codex via the skillstore CLI",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -5493,6 +5535,20 @@
       ]
     },
     {
+      "name": "opencode-visual-cache",
+      "url": "https://github.com/Hotakus/opencode-visual-cache",
+      "owner": "Hotakus",
+      "repo": "opencode-visual-cache",
+      "description": "OpenCode TUI plugin that displays real-time token cache hit rate, token usage, cost savings, and provider balance in a sidebar",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Hotakus/opencode-visual-cache/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Overleaf LaTeX",
       "url": "https://github.com/MarcoDotIO/overleaf-latex",
       "owner": "MarcoDotIO",
@@ -5602,6 +5658,20 @@
       "install_url": "https://raw.githubusercontent.com/YGao2005/scholar-feed-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "SCVD General Store",
+      "url": "https://github.com/seancrecord/scvd-general-store-repo",
+      "owner": "seancrecord",
+      "repo": "scvd-general-store-repo",
+      "description": "Skills and hosted MCP for x402 endpoint preflight, signed receipt verification, and evidence-backed agentic commerce workflows",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/seancrecord/scvd-general-store-repo/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

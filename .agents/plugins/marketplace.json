@@ -3952,6 +3952,21 @@
       "install_url": "https://raw.githubusercontent.com/drobins25/craft/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "DataMagic",
+      "displayName": "DataMagic",
+      "description": "A skill that teaches coding agents to plan and render narrated animated data videos from tabular data using DVSpec",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "HKUSTDial",
+      "repo": "DataMagic",
+      "url": "https://github.com/HKUSTDial/DataMagic",
+      "install_url": "https://raw.githubusercontent.com/HKUSTDial/DataMagic/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "de-anthropocentric-research-engine",
       "displayName": "de-anthropocentric-research-engine",
       "description": "Collection of 900+ markdown research skills that let Claude Code autonomously survey literature, find gaps, form hypotheses, and design experiments",
@@ -5002,6 +5017,21 @@
       "install_url": "https://raw.githubusercontent.com/FrancoStino/opencode-skills-collection/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "orchflows",
+      "displayName": "orchflows",
+      "description": "Use 2 simple skills to build complex, composable workflows for task-specific jobs",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "DanMcInerney",
+      "repo": "orchflows",
+      "url": "https://github.com/DanMcInerney/orchflows",
+      "install_url": "https://raw.githubusercontent.com/DanMcInerney/orchflows/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "pbx-mcp",
       "displayName": "pbx-mcp",
       "description": "MCP server for Asterisk (AMI) and FreeSWITCH (ESL). Inspect channels, SIP registrations, trunks, and dialplan on a live PBX",
@@ -5225,6 +5255,21 @@
       "repo": "skillsaw",
       "url": "https://github.com/stbenjam/skillsaw",
       "install_url": "https://raw.githubusercontent.com/stbenjam/skillsaw/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Skillstore",
+      "displayName": "Skillstore",
+      "description": "Security-audited Agent Skills marketplace with one-command installation for Claude Code and Codex via the skillstore CLI",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "aiskillstore",
+      "repo": "marketplace",
+      "url": "https://github.com/aiskillstore/marketplace",
+      "install_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "SOTA Engineering Skills",
@@ -5876,6 +5921,21 @@
       "install_url": "https://raw.githubusercontent.com/Syh1906/openai-compatible-imagegen/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-visual-cache",
+      "displayName": "opencode-visual-cache",
+      "description": "OpenCode TUI plugin that displays real-time token cache hit rate, token usage, cost savings, and provider balance in a sidebar",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Hotakus",
+      "repo": "opencode-visual-cache",
+      "url": "https://github.com/Hotakus/opencode-visual-cache",
+      "install_url": "https://raw.githubusercontent.com/Hotakus/opencode-visual-cache/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Overleaf LaTeX",
       "displayName": "Overleaf LaTeX",
       "description": "Local MCP/Codex plugin for creating and editing Overleaf projects",
@@ -5994,6 +6054,21 @@
       "repo": "scholar-feed-mcp",
       "url": "https://github.com/YGao2005/scholar-feed-mcp",
       "install_url": "https://raw.githubusercontent.com/YGao2005/scholar-feed-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "SCVD General Store",
+      "displayName": "SCVD General Store",
+      "description": "Skills and hosted MCP for x402 endpoint preflight, signed receipt verification, and evidence-backed agentic commerce workflows",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "seancrecord",
+      "repo": "scvd-general-store-repo",
+      "url": "https://github.com/seancrecord/scvd-general-store-repo",
+      "install_url": "https://raw.githubusercontent.com/seancrecord/scvd-general-store-repo/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Sessionbus",
