@@ -6041,6 +6041,21 @@
       "install_url": "https://raw.githubusercontent.com/reduck-ai/agents/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "RunAPI MCP Server",
+      "displayName": "RunAPI MCP Server",
+      "description": "Connect MCP-compatible coding tools to RunAPI for model discovery, pricing lookup, media task creation, and balance checks",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "runapi-ai",
+      "repo": "mcp",
+      "url": "https://github.com/runapi-ai/mcp",
+      "install_url": "https://raw.githubusercontent.com/runapi-ai/mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Sando",
       "displayName": "Sando",
       "description": "Plugin for Claude Code and Codex that caps oversized tool output, salvages key lines, stores full artifacts, and redacts secrets",

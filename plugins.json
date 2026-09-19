@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-19",
-  "total": 421,
+  "total": 422,
   "platforms": [
     "codex",
     "grok",
@@ -5642,6 +5642,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/reduck-ai/agents/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "RunAPI MCP Server",
+      "url": "https://github.com/runapi-ai/mcp",
+      "owner": "runapi-ai",
+      "repo": "mcp",
+      "description": "Connect MCP-compatible coding tools to RunAPI for model discovery, pricing lookup, media task creation, and balance checks",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/runapi-ai/mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
