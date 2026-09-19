@@ -4297,6 +4297,21 @@
       "install_url": "https://raw.githubusercontent.com/redhat-community-ai-tools/harness-eval/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "Hey Jarvis",
+      "displayName": "Hey Jarvis",
+      "description": "macOS voice assistant with an on-device wake word that runs quick Mac actions instantly and hands real work (code, browser, apps, email) to Claude Code through the Agent SDK",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "dijiclick",
+      "repo": "hey-jarvis",
+      "url": "https://github.com/dijiclick/hey-jarvis",
+      "install_url": "https://raw.githubusercontent.com/dijiclick/hey-jarvis/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "hiai-opencode",
       "displayName": "hiai-opencode",
       "description": "OpenCode plugin adding a multi-agent team with 10 specialist agents, execution gates, LSP tools, browser automation, and memory search",
