@@ -4705,6 +4705,20 @@
       ]
     },
     {
+      "name": "opencode-weave",
+      "url": "https://github.com/weave-io/weave",
+      "owner": "weave-io",
+      "repo": "weave",
+      "description": "OpenCode plugin providing multi-agent orchestration with specialized agents, category task dispatch, and background sub-agent execution",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/weave-io/weave/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "orchflows",
       "url": "https://github.com/DanMcInerney/orchflows",
       "owner": "DanMcInerney",

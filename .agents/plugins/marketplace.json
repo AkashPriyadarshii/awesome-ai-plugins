@@ -5032,6 +5032,21 @@
       "install_url": "https://raw.githubusercontent.com/FrancoStino/opencode-skills-collection/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-weave",
+      "displayName": "opencode-weave",
+      "description": "OpenCode plugin providing multi-agent orchestration with specialized agents, category task dispatch, and background sub-agent execution",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "weave-io",
+      "repo": "weave",
+      "url": "https://github.com/weave-io/weave",
+      "install_url": "https://raw.githubusercontent.com/weave-io/weave/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "orchflows",
       "displayName": "orchflows",
       "description": "Use 2 simple skills to build complex, composable workflows for task-specific jobs",
