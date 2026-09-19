@@ -3575,7 +3575,7 @@
       "url": "https://github.com/aipmer/codex-grok-task-bridge",
       "owner": "aipmer",
       "repo": "codex-grok-task-bridge",
-      "description": "MCP task bridge for queued, read-only research between Codex and Grok Bot, with fenced leases, idempotency, scoped OAuth, and evidence-based results",
+      "description": "MCP task bridge for queued, read-only research between Codex and Grok Bot, with fenced leases, idempotency, scoped OAuth, evidence-based results, and optional Codex-side continuation",
       "category": "Development & Workflow",
       "platform": "codex",
       "source": "awesome-ai-plugins",
@@ -5075,11 +5075,11 @@
       "repo": "taskdock",
       "description": "Resume agent tasks from current deliverables and decisions, with portable folders, link repair, and reversible file organization",
       "category": "Development & Workflow",
-      "platform": "codex",
+      "platform": "claude-code",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/m1nga/taskdock/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/m1nga/taskdock/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
-        "codex"
+        "claude-code"
       ]
     },
     {

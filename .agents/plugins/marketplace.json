@@ -3819,7 +3819,7 @@
     {
       "name": "Codex \u00d7 Grok Bot Task Bridge",
       "displayName": "Codex \u00d7 Grok Bot Task Bridge",
-      "description": "MCP task bridge for queued, read-only research between Codex and Grok Bot, with fenced leases, idempotency, scoped OAuth, and evidence-based results",
+      "description": "MCP task bridge for queued, read-only research between Codex and Grok Bot, with fenced leases, idempotency, scoped OAuth, evidence-based results, and optional Codex-side continuation",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -5427,14 +5427,14 @@
       "description": "Resume agent tasks from current deliverables and decisions, with portable folders, link repair, and reversible file organization",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "platform": "codex",
+      "platform": "claude-code",
       "ecosystems": [
-        "codex"
+        "claude-code"
       ],
       "owner": "m1nga",
       "repo": "taskdock",
       "url": "https://github.com/m1nga/taskdock",
-      "install_url": "https://raw.githubusercontent.com/m1nga/taskdock/HEAD/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/m1nga/taskdock/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "taskflow",
