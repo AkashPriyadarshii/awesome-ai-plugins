@@ -3817,6 +3817,21 @@
       "install_url": "https://raw.githubusercontent.com/kevin592/codex-full-stack-workflow/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Codex \u00d7 Grok Bot Task Bridge",
+      "displayName": "Codex \u00d7 Grok Bot Task Bridge",
+      "description": "MCP task bridge for queued, read-only research between Codex and Grok Bot, with fenced leases, idempotency, scoped OAuth, and evidence-based results",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "aipmer",
+      "repo": "codex-grok-task-bridge",
+      "url": "https://github.com/aipmer/codex-grok-task-bridge",
+      "install_url": "https://raw.githubusercontent.com/aipmer/codex-grok-task-bridge/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "codex-profiles",
       "displayName": "codex-profiles",
       "description": "Switch Codex CLI and Desktop accounts with isolated `CODEX_HOME` profile directories instead of copying token files",

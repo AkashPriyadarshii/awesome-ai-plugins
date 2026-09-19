@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-19",
-  "total": 420,
+  "total": 421,
   "platforms": [
     "codex",
     "grok",
@@ -3566,6 +3566,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/kevin592/codex-full-stack-workflow/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Codex \u00d7 Grok Bot Task Bridge",
+      "url": "https://github.com/aipmer/codex-grok-task-bridge",
+      "owner": "aipmer",
+      "repo": "codex-grok-task-bridge",
+      "description": "MCP task bridge for queued, read-only research between Codex and Grok Bot, with fenced leases, idempotency, scoped OAuth, and evidence-based results",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/aipmer/codex-grok-task-bridge/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
