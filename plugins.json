@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-19",
-  "total": 423,
+  "total": 424,
   "platforms": [
     "codex",
     "grok",
@@ -4154,6 +4154,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AntonioCoppe/jev-harness/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "JevScout",
+      "url": "https://github.com/hqman/JevScout",
+      "owner": "hqman",
+      "repo": "JevScout",
+      "description": "Autonomous job hunt orchestrator powered by TypeSafe Jev and Chrome DevTools Protocol to discover and evaluate AI engineering roles",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/hqman/JevScout/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
