@@ -5062,6 +5062,21 @@
       "install_url": "https://raw.githubusercontent.com/weave-io/weave/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "OpenSea Skills",
+      "displayName": "OpenSea Skills",
+      "description": "Five Agent Skills for OpenSea data, Seaport trading, ERC20 swaps, wallet signing, and ERC-8257 tool development",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ProjectOpenSea",
+      "repo": "opensea-skill",
+      "url": "https://github.com/ProjectOpenSea/opensea-skill",
+      "install_url": "https://raw.githubusercontent.com/ProjectOpenSea/opensea-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "orchflows",
       "displayName": "orchflows",
       "description": "Use 2 simple skills to build complex, composable workflows for task-specific jobs",
