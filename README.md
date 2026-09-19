@@ -434,6 +434,7 @@ Third-party plugins built by the community. [PRs welcome](#contributing)!
 - [Flow Studio Power Automate](https://github.com/ninihen1/power-automate-mcp-skills) - Debug, build, and operate Power Automate flows via FlowStudio MCP with action-level inputs and outputs.
 - [GH Project](https://github.com/zfifteen/gh-project-plugin) - Create GitHub repositories from Codex with inferred defaults, native menus, explicit confirmation, and deterministic local cloning.
 - [GodotPrompter](https://github.com/jame581/GodotPrompter) - Collection of 55 Godot 4.x domain skills and agents that AI coding agents load on demand for GDScript and C# development.
+- [GPT-6 Astra Outbound System](https://github.com/heypastel/pastel-outbound-system) - Codex plugin with 20 outbound skills and 12 agents that catch LinkedIn buying signals, qualify and rank leads, write human-sounding messages and posts, run sequences, and handle replies through the Pastel MCP, with every send approved first.
 - [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet) - Hermes Agent X/Twitter plugin for read-first social research, monitoring, and approval-gated actions through Xquik.
 - [Hostinger API MCP](https://github.com/hostinger/api-mcp-server) - Manage Hostinger VPS, domains, DNS, hosting, and billing through MCP tools backed by the official Hostinger API.
 - [HTML/CSS to Image API](https://github.com/htmlcsstoimage/agent-plugins) - Let AI agents capture live website screenshots, render HTML/CSS and populate reusable templates as images or PDFs without managing a browser.
