@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-19",
-  "total": 438,
+  "total": 439,
   "platforms": [
     "codex",
     "grok",
@@ -3370,6 +3370,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/jmylchreest/aide/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Alloy",
+      "url": "https://github.com/tlangridge/Alloy",
+      "owner": "tlangridge",
+      "repo": "Alloy",
+      "description": "Orchestrates Codex, Claude, Grok, and Antigravity CLIs using existing subscriptions, with Jev task routing, read-only review panels, and managed worktree execution with independent review",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/tlangridge/Alloy/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

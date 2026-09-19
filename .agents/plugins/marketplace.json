@@ -3607,6 +3607,21 @@
       "install_url": "https://raw.githubusercontent.com/jmylchreest/aide/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Alloy",
+      "displayName": "Alloy",
+      "description": "Orchestrates Codex, Claude, Grok, and Antigravity CLIs using existing subscriptions, with Jev task routing, read-only review panels, and managed worktree execution with independent review",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "tlangridge",
+      "repo": "Alloy",
+      "url": "https://github.com/tlangridge/Alloy",
+      "install_url": "https://raw.githubusercontent.com/tlangridge/Alloy/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Antigravity Context Meter",
       "displayName": "Antigravity Context Meter",
       "description": "Real-time 1:1 Cursor-style context meter & zero-loss session migration for Google Antigravity (Desktop HUD & IDE Extension)",
