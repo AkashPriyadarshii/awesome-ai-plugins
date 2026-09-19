@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-09-18",
-  "total": 413,
+  "last_updated": "2026-09-19",
+  "total": 415,
   "platforms": [
     "codex",
     "grok",
@@ -5549,6 +5549,20 @@
       ]
     },
     {
+      "name": "Ratchet",
+      "url": "https://github.com/baisethomas/Ratchet",
+      "owner": "baisethomas",
+      "repo": "Ratchet",
+      "description": "Verification playbook and Claude Code plugin for coding agents at any capability tier: a model-agnostic AGENTS.md contract, a destructive-command guard, a stop gate that runs your checks before \"done\", and skills that reproduce a bug and prove its regression test can fail; the same skills load in Codex from `.agents/skills/`",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/baisethomas/Ratchet/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Reduck Agents",
       "url": "https://github.com/reduck-ai/agents",
       "owner": "reduck-ai",
@@ -5586,6 +5600,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/YGao2005/scholar-feed-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Sessionbus",
+      "url": "https://github.com/antst/sessionbus-peers",
+      "owner": "antst",
+      "repo": "sessionbus-peers",
+      "description": "Connects independently started Claude Code, Codex, Grok, Qwen, OpenCode and Kilo sessions and custom tools through an open bus protocol for live messaging and optional managed sessions across products and hosts, while keeping native harnesses",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/antst/sessionbus-peers/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

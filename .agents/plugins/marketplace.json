@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-09-18",
+  "last_updated": "2026-09-19",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -5936,6 +5936,21 @@
       "install_url": "https://raw.githubusercontent.com/QVerisAI/qveris-agent-toolkit/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Ratchet",
+      "displayName": "Ratchet",
+      "description": "Verification playbook and Claude Code plugin for coding agents at any capability tier: a model-agnostic AGENTS.md contract, a destructive-command guard, a stop gate that runs your checks before \"done\", and skills that reproduce a bug and prove its regression test can fail; the same skills load in Codex from `.agents/skills/`",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "baisethomas",
+      "repo": "Ratchet",
+      "url": "https://github.com/baisethomas/Ratchet",
+      "install_url": "https://raw.githubusercontent.com/baisethomas/Ratchet/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Reduck Agents",
       "displayName": "Reduck Agents",
       "description": "Claude Code plugin marketplace and agent skills that discover, run, and create browser automation scripts through the Reduck MCP in your own logged-in Chrome, with reference agents for GEO audits and SaaS invoice retrieval",
@@ -5979,6 +5994,21 @@
       "repo": "scholar-feed-mcp",
       "url": "https://github.com/YGao2005/scholar-feed-mcp",
       "install_url": "https://raw.githubusercontent.com/YGao2005/scholar-feed-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Sessionbus",
+      "displayName": "Sessionbus",
+      "description": "Connects independently started Claude Code, Codex, Grok, Qwen, OpenCode and Kilo sessions and custom tools through an open bus protocol for live messaging and optional managed sessions across products and hosts, while keeping native harnesses",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "antst",
+      "repo": "sessionbus-peers",
+      "url": "https://github.com/antst/sessionbus-peers",
+      "install_url": "https://raw.githubusercontent.com/antst/sessionbus-peers/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "site-spec",
