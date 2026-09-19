@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-19",
-  "total": 429,
+  "total": 430,
   "platforms": [
     "codex",
     "grok",
@@ -3580,6 +3580,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/shinpr/codex-subagent-playbook/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Codex Token Watch",
+      "url": "https://github.com/premk134/codex-token-watch",
+      "owner": "premk134",
+      "repo": "codex-token-watch",
+      "description": "Read-only macOS CLI that turns local Codex Desktop task logs into per-turn token, prompt-cache, cache-miss, duration, and API-cost analysis",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/premk134/codex-token-watch/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

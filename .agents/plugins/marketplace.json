@@ -3832,6 +3832,21 @@
       "install_url": "https://raw.githubusercontent.com/shinpr/codex-subagent-playbook/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Codex Token Watch",
+      "displayName": "Codex Token Watch",
+      "description": "Read-only macOS CLI that turns local Codex Desktop task logs into per-turn token, prompt-cache, cache-miss, duration, and API-cost analysis",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "premk134",
+      "repo": "codex-token-watch",
+      "url": "https://github.com/premk134/codex-token-watch",
+      "install_url": "https://raw.githubusercontent.com/premk134/codex-token-watch/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Codex \u00d7 Grok Bot Task Bridge",
       "displayName": "Codex \u00d7 Grok Bot Task Bridge",
       "description": "MCP task bridge for queued, read-only research between Codex and Grok Bot, with fenced leases, idempotency, scoped OAuth, evidence-based results, and optional Codex-side continuation",
