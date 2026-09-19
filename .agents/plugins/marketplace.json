@@ -5996,6 +5996,21 @@
       "install_url": "https://raw.githubusercontent.com/drolosoft/immich-photo-manager/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "Kesha Voice Kit",
+      "displayName": "Kesha Voice Kit",
+      "description": "Local speech-to-text and text-to-speech CLI with an MCP server; it transcribes 25 languages and speaks 9, and every model runs on the machine itself rather than in a cloud service",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "drakulavich",
+      "repo": "kesha-voice-kit",
+      "url": "https://github.com/drakulavich/kesha-voice-kit",
+      "install_url": "https://raw.githubusercontent.com/drakulavich/kesha-voice-kit/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Kindle Highlights",
       "displayName": "Kindle Highlights",
       "description": "Claude Code skill that exports a book's Kindle highlights to verbatim, location-cited Markdown, recovering the ones Amazon's export limit truncates or hides (macOS)",

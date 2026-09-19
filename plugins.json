@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-19",
-  "total": 432,
+  "total": 433,
   "platforms": [
     "codex",
     "grok",
@@ -5602,6 +5602,20 @@
       "install_url": "https://raw.githubusercontent.com/drolosoft/immich-photo-manager/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "Kesha Voice Kit",
+      "url": "https://github.com/drakulavich/kesha-voice-kit",
+      "owner": "drakulavich",
+      "repo": "kesha-voice-kit",
+      "description": "Local speech-to-text and text-to-speech CLI with an MCP server; it transcribes 25 languages and speaks 9, and every model runs on the machine itself rather than in a cloud service",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/drakulavich/kesha-voice-kit/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
