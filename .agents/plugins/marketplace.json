@@ -3532,6 +3532,21 @@
       "install_url": "https://raw.githubusercontent.com/moasq/agentic-ship/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "AgentWiki",
+      "displayName": "AgentWiki",
+      "description": "Rust CLI that generates C4-style architecture docs for any repository using already-authenticated agent CLIs (Claude Code, Codex, Devin) as the LLM backend",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "tidusvn05",
+      "repo": "agentwiki",
+      "url": "https://github.com/tidusvn05/agentwiki",
+      "install_url": "https://raw.githubusercontent.com/tidusvn05/agentwiki/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Agnostic-AI",
       "displayName": "Agnostic-AI",
       "description": "Capture your Claude Code or Codex harness once (rules, hooks, skills, subagents, commands and MCP servers) and apply it identically to Gemini CLI, Cursor, Antigravity and 16 more clients",
@@ -5630,6 +5645,21 @@
       "repo": "trigger_tree",
       "url": "https://github.com/Hedde/trigger_tree",
       "install_url": "https://raw.githubusercontent.com/Hedde/trigger_tree/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Usage Monitor",
+      "displayName": "Usage Monitor",
+      "description": "Floating desktop meter that shows remaining Grok, MiniMax, Codex, Claude, Cursor, Copilot, and Gemini usage and keeps each session on this computer",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Errr0rr404",
+      "repo": "usage-monitor",
+      "url": "https://github.com/Errr0rr404/usage-monitor",
+      "install_url": "https://raw.githubusercontent.com/Errr0rr404/usage-monitor/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Vanguard Frontier Agentic",

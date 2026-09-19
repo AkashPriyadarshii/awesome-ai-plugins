@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-19",
-  "total": 436,
+  "total": 438,
   "platforms": [
     "codex",
     "grok",
@@ -3305,6 +3305,20 @@
       ]
     },
     {
+      "name": "AgentWiki",
+      "url": "https://github.com/tidusvn05/agentwiki",
+      "owner": "tidusvn05",
+      "repo": "agentwiki",
+      "description": "Rust CLI that generates C4-style architecture docs for any repository using already-authenticated agent CLIs (Claude Code, Codex, Devin) as the LLM backend",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/tidusvn05/agentwiki/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Agnostic-AI",
       "url": "https://github.com/ucsandman/Agnostic-AI",
       "owner": "ucsandman",
@@ -5260,6 +5274,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Hedde/trigger_tree/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Usage Monitor",
+      "url": "https://github.com/Errr0rr404/usage-monitor",
+      "owner": "Errr0rr404",
+      "repo": "usage-monitor",
+      "description": "Floating desktop meter that shows remaining Grok, MiniMax, Codex, Claude, Cursor, Copilot, and Gemini usage and keeps each session on this computer",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Errr0rr404/usage-monitor/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
