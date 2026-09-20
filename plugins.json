@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-20",
-  "total": 453,
+  "total": 454,
   "platforms": [
     "codex",
     "grok",
@@ -5694,6 +5694,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/getcargohq/cargo-skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "claude-dev-suite",
+      "url": "https://github.com/claude-dev-suite/claude-dev-suite",
+      "owner": "claude-dev-suite",
+      "repo": "claude-dev-suite",
+      "description": "Detects a project's stack and installs the matching agents, framework skills and MCP servers into it, writing each assistant's own config format for Claude Code, Copilot, Cursor, Gemini CLI, Codex CLI, Cline and Kimi Code",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/claude-dev-suite/claude-dev-suite/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

@@ -6097,6 +6097,21 @@
       "install_url": "https://raw.githubusercontent.com/getcargohq/cargo-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "claude-dev-suite",
+      "displayName": "claude-dev-suite",
+      "description": "Detects a project's stack and installs the matching agents, framework skills and MCP servers into it, writing each assistant's own config format for Claude Code, Copilot, Cursor, Gemini CLI, Codex CLI, Cline and Kimi Code",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "claude-dev-suite",
+      "repo": "claude-dev-suite",
+      "url": "https://github.com/claude-dev-suite/claude-dev-suite",
+      "install_url": "https://raw.githubusercontent.com/claude-dev-suite/claude-dev-suite/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "CloudBase AI Toolkit",
       "displayName": "CloudBase AI Toolkit",
       "description": "Backend for AI coding agents on Tencent CloudBase \u2014 database, auth, and functions via Plugin, Skills & MCP",
