@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-20",
-  "total": 440,
+  "total": 441,
   "platforms": [
     "codex",
     "grok",
@@ -4282,6 +4282,20 @@
       "install_url": "https://raw.githubusercontent.com/tacticocc/Jevbridge/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "JevPromptCoach",
+      "url": "https://github.com/CrowdLinker/JevPromptCoach",
+      "owner": "CrowdLinker",
+      "repo": "JevPromptCoach",
+      "description": "Claude Code plugin that scores how well you prompt a coding agent and tracks whether your habits improve over time, running on TypeSafe's Jev model with no added latency on the prompt path",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/CrowdLinker/JevPromptCoach/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
