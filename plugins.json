@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-20",
-  "total": 443,
+  "total": 448,
   "platforms": [
     "codex",
     "grok",
@@ -1021,6 +1021,20 @@
       ]
     },
     {
+      "name": "jev-use",
+      "url": "https://github.com/shitianfang/jev-use",
+      "owner": "shitianfang",
+      "repo": "jev-use",
+      "description": "Hands the steps of a Codex session that produce no text \u2014 is the build done, which of these elements do I click, is this shell command safe \u2014 to Jev, TypeSafe AI's judgment model, with a PreToolUse command gate and typed escalation back to the model for anything it cannot decide.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/shitianfang/jev-use/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Kernel",
       "url": "https://github.com/ariaxhan/kernel-claude",
       "owner": "ariaxhan",
@@ -1295,6 +1309,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/RBraga01/Quality-Engineering-Skills/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Quiver",
+      "url": "https://github.com/yagizdo/quiver",
+      "owner": "yagizdo",
+      "repo": "quiver",
+      "description": "21 development lifecycle skills and 20 review and debug agents for Codex, Claude Code, Cursor, and OpenCode, where every step writes its output to disk instead of leaving it in the chat.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/yagizdo/quiver/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -3879,6 +3907,20 @@
       ]
     },
     {
+      "name": "Easy-MCP",
+      "url": "https://github.com/Mark007-R/Easy-MCP",
+      "owner": "Mark007-R",
+      "repo": "Easy-MCP",
+      "description": "Turns plain Python functions into secure MCP servers, with ready-made read-only GitHub and Postgres servers installable in one command",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Mark007-R/Easy-MCP/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Embedded Workbench",
       "url": "https://github.com/AmethystLuna/embedded-workbench",
       "owner": "AmethystLuna",
@@ -4257,6 +4299,20 @@
       ]
     },
     {
+      "name": "Jev Studio",
+      "url": "https://github.com/utk2103/jev-studio",
+      "owner": "utk2103",
+      "repo": "jev-studio",
+      "description": "One-stop kit for playing with TypeSafe's Jev: MCP tools for Choice/Noul/Score, ready-made prompt libraries, and slash commands for every cookbook",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/utk2103/jev-studio/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "jev-harness",
       "url": "https://github.com/AntonioCoppe/jev-harness",
       "owner": "AntonioCoppe",
@@ -4271,17 +4327,17 @@
       ]
     },
     {
-      "name": "jev-use",
-      "url": "https://github.com/shitianfang/jev-use",
-      "owner": "shitianfang",
-      "repo": "jev-use",
-      "description": "Hands the agent steps that need no text output to Jev's judgment model across Claude Code, Codex, and Pi, returning everything it should not decide to the LLM under a typed escalation contract",
+      "name": "jev-preflight",
+      "url": "https://github.com/muse0509/jev-preflight",
+      "owner": "muse0509",
+      "repo": "jev-preflight",
+      "description": "Claude Code plugin that uses TypeSafe's Jev to assess code-change risk and request at most one additional investigation before a turn completes",
       "category": "Development & Workflow",
-      "platform": "codex",
+      "platform": "claude-code",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/shitianfang/jev-use/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/muse0509/jev-preflight/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
-        "codex"
+        "claude-code"
       ]
     },
     {
@@ -4994,6 +5050,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Aqua-123/pstack-for-codex/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Redfox Agent Plugins",
+      "url": "https://github.com/redfox-data/redfox-agent-plugins",
+      "owner": "redfox-data",
+      "repo": "redfox-agent-plugins",
+      "description": "Ten cross-platform agent skills (video download, transcripts, image gen, trend search) installable on Claude Code, Codex, Cursor, and Gemini CLI from a single repo",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/redfox-data/redfox-agent-plugins/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
