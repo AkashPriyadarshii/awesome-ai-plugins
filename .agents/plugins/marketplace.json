@@ -4402,6 +4402,21 @@
       "install_url": "https://raw.githubusercontent.com/redhat-community-ai-tools/harness-eval/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "Harness Kit",
+      "displayName": "Harness Kit",
+      "description": "Agentic development harness for orchestrating specification, implementation, review, and telemetry across multiple AI coding assistants",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "romabeckman",
+      "repo": "harness-kit",
+      "url": "https://github.com/romabeckman/harness-kit",
+      "install_url": "https://raw.githubusercontent.com/romabeckman/harness-kit/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Hey Jarvis",
       "displayName": "Hey Jarvis",
       "description": "macOS voice assistant with an on-device wake word that runs quick Mac actions instantly and hands real work (code, browser, apps, email) to Claude Code through the Agent SDK",

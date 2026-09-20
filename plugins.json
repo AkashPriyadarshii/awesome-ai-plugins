@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-20",
-  "total": 459,
+  "total": 460,
   "platforms": [
     "codex",
     "grok",
@@ -4114,6 +4114,20 @@
       "install_url": "https://raw.githubusercontent.com/redhat-community-ai-tools/harness-eval/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "Harness Kit",
+      "url": "https://github.com/romabeckman/harness-kit",
+      "owner": "romabeckman",
+      "repo": "harness-kit",
+      "description": "Agentic development harness for orchestrating specification, implementation, review, and telemetry across multiple AI coding assistants",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/romabeckman/harness-kit/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
