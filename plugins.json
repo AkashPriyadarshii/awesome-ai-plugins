@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-20",
-  "total": 442,
+  "total": 443,
   "platforms": [
     "codex",
     "grok",
@@ -4224,6 +4224,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/jkudish/jev-browser/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Jev Go",
+      "url": "https://github.com/nandansrikrishna/jev-go",
+      "owner": "nandansrikrishna",
+      "repo": "jev-go",
+      "description": "Standalone Go CLI and MCP server for TypeSafe's Jev model, with typed single and batch evaluation, JSONL pipelines, and resume support",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/nandansrikrishna/jev-go/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

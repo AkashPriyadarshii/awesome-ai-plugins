@@ -4522,6 +4522,21 @@
       "install_url": "https://raw.githubusercontent.com/jkudish/jev-browser/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Jev Go",
+      "displayName": "Jev Go",
+      "description": "Standalone Go CLI and MCP server for TypeSafe's Jev model, with typed single and batch evaluation, JSONL pipelines, and resume support",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "nandansrikrishna",
+      "repo": "jev-go",
+      "url": "https://github.com/nandansrikrishna/jev-go",
+      "install_url": "https://raw.githubusercontent.com/nandansrikrishna/jev-go/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Jev MCP",
       "displayName": "Jev MCP",
       "description": "Fast, sub-cent typed judgments for agents, such as verifying claims against evidence, screening content for prompt injection before it enters context, and ranking candidates by meaning, each with probabilities and confidence in milliseconds",
