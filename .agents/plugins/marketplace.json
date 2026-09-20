@@ -5497,6 +5497,21 @@
       "install_url": "https://raw.githubusercontent.com/QuantumBFS/sci-brain/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "SearchLink Lite",
+      "displayName": "SearchLink Lite",
+      "description": "Local read-only MCP server for Google Search Console: site performance and query breakdowns, low-CTR and rank 8-20 opportunities, URL inspection, sitemaps, on-page checks and Google ranking update history",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "GlobalMatchHub",
+      "repo": "searchlink-lite",
+      "url": "https://github.com/GlobalMatchHub/searchlink-lite",
+      "install_url": "https://raw.githubusercontent.com/GlobalMatchHub/searchlink-lite/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "SEO Skills AI",
       "displayName": "SEO Skills AI",
       "description": "Universal SEO skill suite and technical audit engine for Claude Code, Cursor, Codex, and other agents, with first-party Python adapters and HOL plugin-scanner CI",
