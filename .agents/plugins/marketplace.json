@@ -6007,6 +6007,21 @@
       "install_url": "https://raw.githubusercontent.com/shzlw/windrunner/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "zui",
+      "displayName": "zui",
+      "description": "Codex skills that integrate the ZUI 3 web UI framework into existing projects and generate standalone ZUI-powered pages from plain briefs",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "easysoft",
+      "repo": "zui",
+      "url": "https://github.com/easysoft/zui",
+      "install_url": "https://raw.githubusercontent.com/easysoft/zui/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "AgentCall",
       "displayName": "AgentCall",
       "description": "Lets Claude Code, Codex, Cursor, Gemini CLI, and 30+ other agents join Google Meet, Zoom, or Microsoft Teams as a speaking, listening, presenting participant with text-to-speech, live transcripts, screenshare, and an avatar camera feed",
