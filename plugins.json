@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-20",
-  "total": 441,
+  "total": 442,
   "platforms": [
     "codex",
     "grok",
@@ -6092,6 +6092,20 @@
       "install_url": "https://raw.githubusercontent.com/DevopsArtFactory/unic/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "VMware-AIops",
+      "url": "https://github.com/vmware-skills/VMware-AIops",
+      "owner": "vmware-skills",
+      "repo": "VMware-AIops",
+      "description": "Skill and MCP server with 60 tools for VMware vCenter and ESXi VM lifecycle, OVA/template deployment, snapshots, guest operations and cluster management, where every destructive tool previews what it would change and acts only on an explicit confirm",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/vmware-skills/VMware-AIops/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

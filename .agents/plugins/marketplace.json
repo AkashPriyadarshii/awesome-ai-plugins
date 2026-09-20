@@ -6521,6 +6521,21 @@
       "install_url": "https://raw.githubusercontent.com/DevopsArtFactory/unic/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "VMware-AIops",
+      "displayName": "VMware-AIops",
+      "description": "Skill and MCP server with 60 tools for VMware vCenter and ESXi VM lifecycle, OVA/template deployment, snapshots, guest operations and cluster management, where every destructive tool previews what it would change and acts only on an explicit confirm",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "vmware-skills",
+      "repo": "VMware-AIops",
+      "url": "https://github.com/vmware-skills/VMware-AIops",
+      "install_url": "https://raw.githubusercontent.com/vmware-skills/VMware-AIops/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "You.com Agent Skills",
       "displayName": "You.com Agent Skills",
       "description": "Cross-platform You.com skill and plugin bundle that gives coding agents current web search, URL content extraction, cited research, finance research, and integration discovery, plus MCP server configs",
