@@ -5992,6 +5992,21 @@
       "install_url": "https://raw.githubusercontent.com/pattern-ai-labs/agentcall/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "agentic-seo",
+      "displayName": "agentic-seo",
+      "description": "SEO skill collection for AI coding assistants with 16 sub-skills, 10 specialist agents, and 89 evidence-collection scripts",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "dalroot",
+      "repo": "agentic-seo",
+      "url": "https://github.com/dalroot/agentic-seo",
+      "install_url": "https://raw.githubusercontent.com/dalroot/agentic-seo/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "agentmailkit",
       "displayName": "agentmailkit",
       "description": "MCP server for scheduled LLM-written email digests from RSS, web and local sources: tools list_jobs/run_job/preview_job/list_plugins, local-first, run_job dry-run by default; `pip install \"agentmailkit[mcp]\"` then `agentmailkit mcp`",
