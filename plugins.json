@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-20",
-  "total": 451,
+  "total": 452,
   "platforms": [
     "codex",
     "grok",
@@ -5260,6 +5260,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "smt-mcp-server-poc",
+      "url": "https://github.com/ab-ten/smt-mcp-server-poc",
+      "owner": "ab-ten",
+      "repo": "smt-mcp-server-poc",
+      "description": "Read-only local workspace MCP server PoC for ChatGPT via OpenAI Secure MCP Tunnel, with path/mount containment and `.mcpignore` exposure controls",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ab-ten/smt-mcp-server-poc/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

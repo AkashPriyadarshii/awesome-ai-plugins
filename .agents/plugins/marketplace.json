@@ -5632,6 +5632,21 @@
       "install_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "smt-mcp-server-poc",
+      "displayName": "smt-mcp-server-poc",
+      "description": "Read-only local workspace MCP server PoC for ChatGPT via OpenAI Secure MCP Tunnel, with path/mount containment and `.mcpignore` exposure controls",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ab-ten",
+      "repo": "smt-mcp-server-poc",
+      "url": "https://github.com/ab-ten/smt-mcp-server-poc",
+      "install_url": "https://raw.githubusercontent.com/ab-ten/smt-mcp-server-poc/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "SOTA Engineering Skills",
       "displayName": "SOTA Engineering Skills",
       "description": "Router-mapped library of 40 domain and language skills with BUILD and AUDIT modes, loading only the rules a task needs and ending every rules file in an audit checklist",
