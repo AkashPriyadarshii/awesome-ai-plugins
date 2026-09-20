@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-20",
-  "total": 449,
+  "total": 451,
   "platforms": [
     "codex",
     "grok",
@@ -567,6 +567,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/joelfarthing/codex-process-jobs/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Codex Quota Optimizer",
+      "url": "https://github.com/ctdaniel/codex-quota-optimizer",
+      "owner": "ctdaniel",
+      "repo": "codex-quota-optimizer",
+      "description": "Reduces avoidable Codex usage with task-aware model routing, focused context, minimal change surfaces, and layered verification.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ctdaniel/codex-quota-optimizer/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -4868,6 +4882,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/mohammad154/opencode-nexus/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "opencode-openai-compact",
+      "url": "https://github.com/partment/opencode-openai-compact",
+      "owner": "partment",
+      "repo": "opencode-openai-compact",
+      "description": "OpenCode plugin that uses OpenAI Responses API native compaction v2 and stores checkpoints in SQLite",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/partment/opencode-openai-compact/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

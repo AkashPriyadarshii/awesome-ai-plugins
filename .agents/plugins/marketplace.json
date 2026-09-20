@@ -605,6 +605,21 @@
       "install_url": "https://raw.githubusercontent.com/joelfarthing/codex-process-jobs/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Codex Quota Optimizer",
+      "displayName": "Codex Quota Optimizer",
+      "description": "Reduces avoidable Codex usage with task-aware model routing, focused context, minimal change surfaces, and layered verification.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ctdaniel",
+      "repo": "codex-quota-optimizer",
+      "url": "https://github.com/ctdaniel/codex-quota-optimizer",
+      "install_url": "https://raw.githubusercontent.com/ctdaniel/codex-quota-optimizer/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Codex Quota Title",
       "displayName": "Codex Quota Title",
       "description": "Shows live Codex quota usage and reset time directly in the Codex Desktop window title on Windows.",
@@ -5210,6 +5225,21 @@
       "repo": "opencode-nexus",
       "url": "https://github.com/mohammad154/opencode-nexus",
       "install_url": "https://raw.githubusercontent.com/mohammad154/opencode-nexus/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "opencode-openai-compact",
+      "displayName": "opencode-openai-compact",
+      "description": "OpenCode plugin that uses OpenAI Responses API native compaction v2 and stores checkpoints in SQLite",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "partment",
+      "repo": "opencode-openai-compact",
+      "url": "https://github.com/partment/opencode-openai-compact",
+      "install_url": "https://raw.githubusercontent.com/partment/opencode-openai-compact/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "opencode-plugin-loop",
