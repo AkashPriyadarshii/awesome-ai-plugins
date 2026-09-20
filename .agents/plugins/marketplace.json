@@ -4852,6 +4852,21 @@
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/logicprobe/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "loose-ends",
+      "displayName": "loose-ends",
+      "description": "Keeps a live checklist above the Claude Code prompt of the topics, open questions and tasks a conversation raised, updated by a small model after each turn and drawn with function hooks",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "fernandomoraes",
+      "repo": "loose-ends",
+      "url": "https://github.com/fernandomoraes/loose-ends",
+      "install_url": "https://raw.githubusercontent.com/fernandomoraes/loose-ends/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "LoreConvo",
       "displayName": "LoreConvo",
       "description": "Persistent session memory MCP server for Claude \u2014 auto-saves and recalls conversation context, decisions, and artifacts across Claude Code, chat, and other surfaces with full-text search",
