@@ -1460,6 +1460,21 @@
       "install_url": "https://raw.githubusercontent.com/RooAGI/red-green-proof/HEAD/plugins/red-green-proof/.codex-plugin/plugin.json"
     },
     {
+      "name": "Redfox Agent Plugins",
+      "displayName": "Redfox Agent Plugins",
+      "description": "Ten cross-platform agent skills (video download, transcripts, image gen, trend search) installable on Claude Code, Codex, Cursor, and Gemini CLI from a single repo.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "redfox-data",
+      "repo": "redfox-agent-plugins",
+      "url": "https://github.com/redfox-data/redfox-agent-plugins",
+      "install_url": "https://raw.githubusercontent.com/redfox-data/redfox-agent-plugins/HEAD/plugins/account-video-downloader/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Reviewable HTML Workbench",
       "displayName": "Reviewable HTML Workbench",
       "description": "Generate reviewable HTML documents, serve previews, collect inline review comments, and feed review outcomes back into agent workflows.",
@@ -5525,21 +5540,6 @@
       "repo": "pstack-for-codex",
       "url": "https://github.com/Aqua-123/pstack-for-codex",
       "install_url": "https://raw.githubusercontent.com/Aqua-123/pstack-for-codex/HEAD/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "Redfox Agent Plugins",
-      "displayName": "Redfox Agent Plugins",
-      "description": "Ten cross-platform agent skills (video download, transcripts, image gen, trend search) installable on Claude Code, Codex, Cursor, and Gemini CLI from a single repo",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "redfox-data",
-      "repo": "redfox-agent-plugins",
-      "url": "https://github.com/redfox-data/redfox-agent-plugins",
-      "install_url": "https://raw.githubusercontent.com/redfox-data/redfox-agent-plugins/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Rel.AI MCP",
