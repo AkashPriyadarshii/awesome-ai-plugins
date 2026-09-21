@@ -6896,6 +6896,21 @@
       "install_url": "https://raw.githubusercontent.com/vmware-skills/VMware-AIops/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "Watermelon UI",
+      "displayName": "Watermelon UI",
+      "description": "MCP server exposing 850+ source-backed React components, blocks, dashboards, and templates through search, retrieval, category, and page-composition tools",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "WatermelonCorp",
+      "repo": "watermelon-platform",
+      "url": "https://github.com/WatermelonCorp/watermelon-platform",
+      "install_url": "https://raw.githubusercontent.com/WatermelonCorp/watermelon-platform/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "You.com Agent Skills",
       "displayName": "You.com Agent Skills",
       "description": "Cross-platform You.com skill and plugin bundle that gives coding agents current web search, URL content extraction, cited research, finance research, and integration discovery, plus MCP server configs",
