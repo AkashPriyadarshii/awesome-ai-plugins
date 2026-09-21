@@ -2405,6 +2405,21 @@
       "install_url": "https://raw.githubusercontent.com/douglasmonsky/codex-usage-tracker/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Command Code Usage",
+      "displayName": "Command Code Usage",
+      "description": "Show your Command Code plan usage inside Codex: a per-turn quota line, plus a /quota command for the full panel.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Jovan1666",
+      "repo": "commandcode-usage",
+      "url": "https://github.com/Jovan1666/commandcode-usage",
+      "install_url": "https://raw.githubusercontent.com/Jovan1666/commandcode-usage/HEAD/plugins/codex/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Computer Usage Summary",
       "displayName": "Computer Usage Summary",
       "description": "Privacy-first, local ActivityWatch reports for app time, AFK time, projects, billable work, and redacted timelines across macOS, Windows, and Linux.",
@@ -6909,6 +6924,21 @@
       "repo": "watermelon-platform",
       "url": "https://github.com/WatermelonCorp/watermelon-platform",
       "install_url": "https://raw.githubusercontent.com/WatermelonCorp/watermelon-platform/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "whatsapp-claude-plugin",
+      "displayName": "whatsapp-claude-plugin",
+      "description": "Claude Code channel plugin and stdio MCP server that connects WhatsApp as a linked device for messaging, voice transcription, and remote tool approval",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Rich627",
+      "repo": "whatsapp-claude-plugin",
+      "url": "https://github.com/Rich627/whatsapp-claude-plugin",
+      "install_url": "https://raw.githubusercontent.com/Rich627/whatsapp-claude-plugin/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "You.com Agent Skills",
