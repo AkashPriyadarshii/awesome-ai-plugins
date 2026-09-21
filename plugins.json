@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-21",
-  "total": 463,
+  "total": 464,
   "platforms": [
     "codex",
     "grok",
@@ -4492,6 +4492,20 @@
       "install_url": "https://raw.githubusercontent.com/kgaidev/kgai/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "kitbash",
+      "url": "https://github.com/Open-Dev-Society/kitbash",
+      "owner": "Open-Dev-Society",
+      "repo": "kitbash",
+      "description": "Breaks an idea into components and classifies each one as BORROW, KITBASH, or WRITE, checking every repo it names against the live GitHub API so invented ones never reach you; ships as a skill, plugin, and MCP server",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Open-Dev-Society/kitbash/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {

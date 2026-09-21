@@ -4807,6 +4807,21 @@
       "install_url": "https://raw.githubusercontent.com/kgaidev/kgai/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "kitbash",
+      "displayName": "kitbash",
+      "description": "Breaks an idea into components and classifies each one as BORROW, KITBASH, or WRITE, checking every repo it names against the live GitHub API so invented ones never reach you; ships as a skill, plugin, and MCP server",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Open-Dev-Society",
+      "repo": "kitbash",
+      "url": "https://github.com/Open-Dev-Society/kitbash",
+      "install_url": "https://raw.githubusercontent.com/Open-Dev-Society/kitbash/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Knowl",
       "displayName": "Knowl",
       "description": "Local-first project memory over MCP for Claude Code, Codex, Cursor and eight other hosts: a SQLite store that retires facts when they change, shares knowledge across linked repos, and retrieves it by hybrid search",
