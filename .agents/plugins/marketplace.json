@@ -5257,6 +5257,21 @@
       "install_url": "https://raw.githubusercontent.com/Kihara777/NixKits/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "oddyssey",
+      "displayName": "oddyssey",
+      "description": "Observability-Driven Development for coding agents: instrument an application or an AI agent with OpenTelemetry (gen_ai semantic conventions: model, agent, tool and MCP spans, token and latency metrics), observe a run through its metrics, traces, logs and profiles on a local Grafana stack or a remote backend, benchmark it with k6, and verify that a fix landed",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "using-system",
+      "repo": "oddyssey",
+      "url": "https://github.com/using-system/oddyssey",
+      "install_url": "https://raw.githubusercontent.com/using-system/oddyssey/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Oh My Design",
       "displayName": "Oh My Design",
       "description": "Evidence-backed design workflow for Claude Code and Codex with reference research, multi-agent reviews, visual QA, and anti-slop guardrails",
