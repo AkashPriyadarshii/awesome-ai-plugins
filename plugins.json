@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-21",
-  "total": 472,
+  "total": 473,
   "platforms": [
     "codex",
     "grok",
@@ -6118,6 +6118,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/miroapp/miro-ai/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Miro MCP Server",
+      "url": "https://github.com/olgasafonova/miro-mcp-server",
+      "owner": "olgasafonova",
+      "repo": "miro-mcp-server",
+      "description": "Self-hosted single-binary Go MCP server exposing 110 tools for Miro boards, covering stickies, shapes, connectors, frames, mindmaps, flowcharts, tags, and bulk operations, with an essentials profile that trims the preload to 14 tools for smaller context budgets",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/olgasafonova/miro-mcp-server/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
