@@ -6476,6 +6476,21 @@
       "install_url": "https://raw.githubusercontent.com/l3a0/claude-plugins/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "kunglao-agent",
+      "displayName": "kunglao-agent",
+      "description": "Reverse-engineering expert agent for binaries, firmware, protocols, and web/JS: MCP servers registered by kunglao-init (ghidra, sequential-thinking, x64dbg, ...), see the MCP supply table under Internals",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "amd2g2zz",
+      "repo": "kunglao-agent",
+      "url": "https://github.com/amd2g2zz/kunglao-agent",
+      "install_url": "https://raw.githubusercontent.com/amd2g2zz/kunglao-agent/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "LetsFG",
       "displayName": "LetsFG",
       "description": "Flight and hotel search and booking for AI agents across hundreds of airlines and the major booking sites, via a remote MCP server (Claude, ChatGPT, Cursor, Windsurf), CLI, Python/JS SDKs, and an Agent Skill, with free search after a one-time card connection and real airline PNRs on flight bookings",

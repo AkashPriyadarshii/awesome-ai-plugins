@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-21",
-  "total": 464,
+  "total": 465,
   "platforms": [
     "codex",
     "grok",
@@ -6048,6 +6048,20 @@
       "platform": "claude-code",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/l3a0/claude-plugins/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "kunglao-agent",
+      "url": "https://github.com/amd2g2zz/kunglao-agent",
+      "owner": "amd2g2zz",
+      "repo": "kunglao-agent",
+      "description": "Reverse-engineering expert agent for binaries, firmware, protocols, and web/JS: MCP servers registered by kunglao-init (ghidra, sequential-thinking, x64dbg, ...), see the MCP supply table under Internals",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/amd2g2zz/kunglao-agent/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
       ]
