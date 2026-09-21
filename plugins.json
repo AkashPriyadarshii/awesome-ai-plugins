@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-21",
-  "total": 468,
+  "total": 469,
   "platforms": [
     "codex",
     "grok",
@@ -6510,6 +6510,20 @@
       "platform": "grok",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/FineComputer14451/Grok-Imagine-Cinematic-Studio/HEAD/.grok-plugin/plugin.json",
+      "ecosystems": [
+        "grok"
+      ]
+    },
+    {
+      "name": "hypergrok-trading-desk",
+      "url": "https://github.com/galleonlabs/hypergrok-trading-desk",
+      "owner": "galleonlabs",
+      "repo": "hypergrok-trading-desk",
+      "description": "Seven-agent Hyperliquid trading desk roles and skills for Grok Bot that research, size, execute and review trades with user approval",
+      "category": "Grok Plugins",
+      "platform": "grok",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/galleonlabs/hypergrok-trading-desk/HEAD/.grok-plugin/plugin.json",
       "ecosystems": [
         "grok"
       ]

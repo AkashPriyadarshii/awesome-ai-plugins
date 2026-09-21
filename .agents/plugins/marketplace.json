@@ -6971,6 +6971,21 @@
       "install_url": "https://raw.githubusercontent.com/FineComputer14451/Grok-Imagine-Cinematic-Studio/HEAD/.grok-plugin/plugin.json"
     },
     {
+      "name": "hypergrok-trading-desk",
+      "displayName": "hypergrok-trading-desk",
+      "description": "Seven-agent Hyperliquid trading desk roles and skills for Grok Bot that research, size, execute and review trades with user approval",
+      "category": "Grok Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "grok",
+      "ecosystems": [
+        "grok"
+      ],
+      "owner": "galleonlabs",
+      "repo": "hypergrok-trading-desk",
+      "url": "https://github.com/galleonlabs/hypergrok-trading-desk",
+      "install_url": "https://raw.githubusercontent.com/galleonlabs/hypergrok-trading-desk/HEAD/.grok-plugin/plugin.json"
+    },
+    {
       "name": "dsh-api-balance",
       "displayName": "dsh-api-balance",
       "description": "API usage-balance panel for DeepSeek Harness: adds a \u300cUsage / Balance\u300d tab to the webui usage ring showing the account balance and today / this-month / 30-day cost with charts, acquiring the platform token automatically from local browser sessions",
