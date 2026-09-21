@@ -6551,6 +6551,21 @@
       "install_url": "https://raw.githubusercontent.com/Syh1906/openai-compatible-imagegen/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-cmd-provider",
+      "displayName": "opencode-cmd-provider",
+      "description": "OpenCode plugin that registers Command Code as a provider so you can run its models and plans inside OpenCode, with a sidebar showing tier, allowances, and deal rates",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "rashidrazak",
+      "repo": "opencode-cmd-provider",
+      "url": "https://github.com/rashidrazak/opencode-cmd-provider",
+      "install_url": "https://raw.githubusercontent.com/rashidrazak/opencode-cmd-provider/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "opencode-visual-cache",
       "displayName": "opencode-visual-cache",
       "description": "OpenCode TUI plugin that displays real-time token cache hit rate, token usage, cost savings, and provider balance in a sidebar",
