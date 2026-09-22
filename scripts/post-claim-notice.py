@@ -72,19 +72,19 @@ def build_comment_body(author: str, repositories=(), pending_repositories=()) ->
     sections = []
     if claimable:
         claim_links = "\n".join(
-            f"- [Verify ownership of \`{repo}\`](https://hol.org/guard/plugins?{urlencode({'claim': repo, 'utm_source': 'github', 'utm_medium': 'pr_comment', 'utm_campaign': 'plugin_claim', 'utm_content': 'merge_notice'})})"
+            f"- [Verify ownership of `{repo}`](https://hol.org/guard/plugins?{urlencode({'claim': repo, 'utm_source': 'github', 'utm_medium': 'pr_comment', 'utm_campaign': 'plugin_claim', 'utm_content': 'merge_notice'})})"
             for repo in claimable
         )
         sections.append(f"""### Verify ownership
 
 {claim_links}
 
-Open the link for your plugin and choose **"Continue with GitHub"**. Use the GitHub account that maintains the repository. HOL requests only \`read:user\` and \`user:email\`; it does not request repository write access.
+Open the link for your plugin and choose **"Continue with GitHub"**. Use the GitHub account that maintains the repository. HOL requests only `read:user` and `user:email`; it does not request repository write access.
 
 After verification, the listing gets an owner-verified badge and the [plugin dashboard](https://hol.org/guard/plugins) shows its trust score, installs, and engagement. If GitHub permissions are inconclusive, the claim may require review.""")
 
     if pending:
-        pending_lines = "\n".join(f"- \`{repo}\`" for repo in pending)
+        pending_lines = "\n".join(f"- `{repo}`" for repo in pending)
         sections.append(f"""### Still syncing
 
 These repositories are merged into HOL's catalog but are not live in the HOL Registry yet:
