@@ -26,9 +26,12 @@ class PublishOpenPrChecksTests(unittest.TestCase):
     def test_missing_source_scanner_ci_is_optional(self):
         guidance = MODULE.optional_scanner_ci_guidance(["owner/plugin"])
 
-        self.assertIn("Scanner CI is not required for listing", guidance)
-        self.assertIn("remains eligible", guidance)
+        self.assertIn("Recommended: add scanner CI for security", guidance)
+        self.assertIn("This listing can merge without it", guidance)
+        self.assertIn("improves the HOL Registry trust score", guidance)
+        self.assertIn("trust badge", guidance)
         self.assertIn("10% trust-score reduction", guidance)
+        self.assertIn("full trust score", guidance)
 
     def test_success_comment_keeps_required_state_separate_from_scan_advice(self):
         result = {
@@ -51,12 +54,14 @@ class PublishOpenPrChecksTests(unittest.TestCase):
             "https://github.com/example/repo/actions/runs/1",
         )
 
+        self.assertIn("Contribution check passed", body)
         self.assertIn("@builder, the required catalog checks passed.", body)
-        self.assertIn("Scanner CI is not required for listing", body)
-        self.assertNotIn("Contribution check passed", body)
-        self.assertNotIn("Recommended:", body)
-        self.assertNotIn("80", body)
-        self.assertNotIn("✅", body)
+        self.assertIn("Recommended: add scanner CI for security", body)
+        self.assertIn("This listing can merge without it", body)
+        self.assertIn("trust badge", body)
+        self.assertIn("10% trust-score reduction", body)
+        self.assertIn("full trust score", body)
+        self.assertNotIn("listing threshold", body)
 
 
 if __name__ == "__main__":
