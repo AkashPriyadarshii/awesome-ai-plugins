@@ -4357,6 +4357,21 @@
       "install_url": "https://raw.githubusercontent.com/rasimme/FlowBoard/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "ga4-gsc-clarity-mcp-server",
+      "displayName": "ga4-gsc-clarity-mcp-server",
+      "description": "Read-only MCP server for Google Analytics 4, Google Search Console, and Microsoft Clarity with named OAuth/token connections reusable across any project",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "rakoo04",
+      "repo": "ga4-gsc-clarity-mcp-server",
+      "url": "https://github.com/rakoo04/ga4-gsc-clarity-mcp-server",
+      "install_url": "https://raw.githubusercontent.com/rakoo04/ga4-gsc-clarity-mcp-server/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "genie",
       "displayName": "genie",
       "description": "Agent skills and CLI that interview a wish into a plan, dispatch parallel subagents, and review results against acceptance criteria",

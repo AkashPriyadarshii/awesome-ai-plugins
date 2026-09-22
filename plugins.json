@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-22",
-  "total": 484,
+  "total": 485,
   "platforms": [
     "codex",
     "grok",
@@ -4070,6 +4070,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/rasimme/FlowBoard/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ga4-gsc-clarity-mcp-server",
+      "url": "https://github.com/rakoo04/ga4-gsc-clarity-mcp-server",
+      "owner": "rakoo04",
+      "repo": "ga4-gsc-clarity-mcp-server",
+      "description": "Read-only MCP server for Google Analytics 4, Google Search Console, and Microsoft Clarity with named OAuth/token connections reusable across any project",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rakoo04/ga4-gsc-clarity-mcp-server/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
