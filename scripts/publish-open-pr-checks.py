@@ -168,17 +168,25 @@ def missing_scanner_ci_repos(result: dict[str, object]) -> list[str]:
 
 
 def optional_scanner_ci_guidance(repos: list[str]) -> str:
-    """Give concise, explicitly optional source-repository scanner guidance."""
+    """Recommend source-repository scanner CI without turning it into a listing gate."""
 
     listed = ", ".join(f"`{item}`" for item in repos)
     subject = listed if listed else "the source repository"
     return (
-        "\n\nOptional security hardening: if you maintain "
-        f"{subject}, adding `hashgraph-online/ai-plugin-scanner-action` gives the "
-        "project continuous security checks and keeps the listing at its full trust score. "
-        "Scanner CI is not required for listing; without it, the listing remains eligible "
-        "with a 10% trust-score reduction. "
-        "[Setup guide](https://github.com/hashgraph-online/awesome-ai-plugins/blob/main/SCANNER_GUIDE.md)."
+        "\n\n### Recommended: add scanner CI for security\n"
+        f"This listing can merge without it. HOL still scans {subject} independently.\n\n"
+        "We **recommend including** `hashgraph-online/ai-plugin-scanner-action` under "
+        "`.github/workflows/` on `push` and `pull_request`. It gives the project "
+        "continuous security checks and improves the HOL Registry trust score shown by "
+        "the trust badge.\n\n"
+        "Adding it:\n"
+        "- catches secrets, dangerous hooks, supply-chain issues, and other risky changes "
+        "before they ship;\n"
+        "- removes the 10% trust-score reduction applied when maintainer scanner CI is "
+        "missing, so the Registry badge reflects the full trust score;\n"
+        "- can surface findings in GitHub code scanning.\n\n"
+        "See [SCANNER_GUIDE.md](https://github.com/hashgraph-online/awesome-ai-plugins/blob/main/SCANNER_GUIDE.md) "
+        "for the recommended workflow."
     )
 
 
@@ -203,7 +211,7 @@ def remediation_comment(
             details += optional_scanner_ci_guidance(missing)
         return (
             f"{COMMENT_MARKER}\n\n"
-            f"{mention}, the required catalog checks passed."
+            f"**Contribution check passed.** {mention}, the required catalog checks passed."
             f"{details}\n\n"
             f"[View the latest sweep]({run_url})."
         )
