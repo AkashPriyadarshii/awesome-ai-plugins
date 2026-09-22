@@ -175,7 +175,7 @@ def optional_scanner_ci_guidance(repos: list[str]) -> str:
     return (
         "\n\n### Recommended: add scanner CI for security\n"
         f"This listing can merge without it. HOL still scans {subject} independently.\n\n"
-        "We **recommend adding** `hashgraph-online/ai-plugin-scanner-action` under "
+        "We **recommend including** `hashgraph-online/ai-plugin-scanner-action` under "
         "`.github/workflows/` on `push` and `pull_request`. It gives the project "
         "continuous security checks and improves the HOL Registry trust score shown by "
         "the trust badge.\n\n"
