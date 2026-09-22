@@ -5662,6 +5662,21 @@
       "install_url": "https://raw.githubusercontent.com/QuantumBFS/sci-brain/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "Screenpipe MCP",
+      "displayName": "Screenpipe MCP",
+      "description": "Gives agents searchable screen-text and audio history through MCP and a local API; source-available under the Screenpipe Commercial License, with configured cloud features able to send context off-device",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "screenpipe",
+      "repo": "screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "install_url": "https://raw.githubusercontent.com/screenpipe/screenpipe/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "SearchLink Lite",
       "displayName": "SearchLink Lite",
       "description": "Local read-only MCP server for Google Search Console: site performance and query breakdowns, low-CTR and rank 8-20 opportunities, URL inspection, sitemaps, on-page checks and Google ranking update history",

@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-22",
-  "total": 474,
+  "total": 475,
   "platforms": [
     "codex",
     "grok",
@@ -5290,6 +5290,20 @@
       "install_url": "https://raw.githubusercontent.com/QuantumBFS/sci-brain/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "Screenpipe MCP",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "owner": "screenpipe",
+      "repo": "screenpipe",
+      "description": "Gives agents searchable screen-text and audio history through MCP and a local API; source-available under the Screenpipe Commercial License, with configured cloud features able to send context off-device",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/screenpipe/screenpipe/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
