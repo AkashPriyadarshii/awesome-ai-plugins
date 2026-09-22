@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-09-21",
-  "total": 473,
+  "last_updated": "2026-09-22",
+  "total": 474,
   "platforms": [
     "codex",
     "grok",
@@ -4014,6 +4014,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/keegan-dotcom/encore-lite/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Festival",
+      "url": "https://github.com/Obedience-Corp/festival",
+      "owner": "Obedience-Corp",
+      "repo": "festival",
+      "description": "Planning and persistent context tools that let coding agents execute multi-phase goals across sessions using files and Git",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Obedience-Corp/festival/HEAD/plugins/festival/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

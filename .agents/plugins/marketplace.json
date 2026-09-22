@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-22",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -4295,6 +4295,21 @@
       "repo": "encore-lite",
       "url": "https://github.com/keegan-dotcom/encore-lite",
       "install_url": "https://raw.githubusercontent.com/keegan-dotcom/encore-lite/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Festival",
+      "displayName": "Festival",
+      "description": "Planning and persistent context tools that let coding agents execute multi-phase goals across sessions using files and Git",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Obedience-Corp",
+      "repo": "festival",
+      "url": "https://github.com/Obedience-Corp/festival",
+      "install_url": "https://raw.githubusercontent.com/Obedience-Corp/festival/HEAD/plugins/festival/.codex-plugin/plugin.json"
     },
     {
       "name": "FinBridge",
