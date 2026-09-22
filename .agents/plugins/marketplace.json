@@ -4357,6 +4357,21 @@
       "install_url": "https://raw.githubusercontent.com/rasimme/FlowBoard/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "forgecat-agent-profiles",
+      "displayName": "forgecat-agent-profiles",
+      "description": "Catalog of 191 cross-platform agent profiles installable via the ForgeCat CLI into Claude Code, Cursor, Codex, OpenClaw, and Hermes Agent",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "nota-america",
+      "repo": "forgecat-agent-profiles",
+      "url": "https://github.com/nota-america/forgecat-agent-profiles",
+      "install_url": "https://raw.githubusercontent.com/nota-america/forgecat-agent-profiles/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "ga4-gsc-clarity-mcp-server",
       "displayName": "ga4-gsc-clarity-mcp-server",
       "description": "Read-only MCP server for Google Analytics 4, Google Search Console, and Microsoft Clarity with named OAuth/token connections reusable across any project",
