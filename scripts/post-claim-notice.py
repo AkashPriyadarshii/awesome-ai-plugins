@@ -64,12 +64,8 @@ class RegistryCatalogFetchError(RuntimeError):
 
 
 def build_comment_body(author: str, repositories=(), pending_repositories=()) -> str:
-    """Build the claim notice comment body, tagging the PR author.
+    """Build a concise post-merge ownership-verification notice."""
 
-    `repositories` must contain only repos that are confirmed in the live HOL
-    Registry. `pending_repositories` may contain repos confirmed in the merged
-    catalog source but not yet present in the Registry.
-    """
     claimable = sorted(set(repositories))
     pending = sorted(set(pending_repositories) - set(claimable))
 
@@ -79,45 +75,34 @@ def build_comment_body(author: str, repositories=(), pending_repositories=()) ->
             f"- [Verify ownership of `{repo}`](https://hol.org/guard/plugins?{urlencode({'claim': repo, 'utm_source': 'github', 'utm_medium': 'pr_comment', 'utm_campaign': 'plugin_claim', 'utm_content': 'merge_notice'})})"
             for repo in claimable
         )
-        sections.append(f"""### How to claim
+        sections.append(f"""### Verify ownership
 
 {claim_links}
 
-1. Open your plugin's link above, then choose **\"Continue with GitHub\"**. Your plugin stays selected through sign-in.
-2. Use the GitHub account that maintains the repository. We request only `read:user` and `user:email`, with no repository write access.
-3. Complete ownership verification to receive the owner-verified badge. Inconclusive repository permissions may require review.""")
+Open the link for your plugin and choose **"Continue with GitHub"**. Use the GitHub account that maintains the repository. HOL requests only `read:user` and `user:email`; it does not request repository write access.
+
+After verification, the listing gets an owner-verified badge and the plugin dashboard shows its trust score, installs, and engagement. If GitHub permissions are inconclusive, the claim may require review.""")
 
     if pending:
         pending_lines = "\n".join(f"- `{repo}`" for repo in pending)
         sections.append(f"""### Still syncing
 
-These repositories are merged into HOL's catalog source but are not live in the HOL Registry yet:
+These repositories are merged into HOL's catalog but are not live in the HOL Registry yet:
 
 {pending_lines}
 
-No action is needed yet. The claim link will work after the listing appears in the Registry.""")
+No action is needed yet. Once the listing appears in the Registry, ownership verification will be available from the [plugin dashboard](https://hol.org/guard/plugins).""")
 
     if not sections:
         sections.append("[Open the plugin dashboard](https://hol.org/guard/plugins)")
 
     action_sections = "\n\n".join(sections)
     return f"""<!-- hol-claim-notice -->
-🎉 Hey @{author}, this plugin submission has been merged into HOL's catalog source.
+@{author}, this contribution is merged into HOL's catalog.
 
 ## Claim your plugin
 
-Once the plugin appears in the [HOL Registry](https://hol.org/plugins), if you maintain it, you can verify ownership to unlock:
-
-- **Owner-verified badge** on your plugin's registry listing
-- **Trust score** visibility and analytics for your plugin
-- **Direct claim link** to share with your community
-- **Dashboard access** at [hol.org/guard/plugins](https://hol.org/guard/plugins) to track installs, trust, and engagement
-
-{action_sections}
-
-No need to add any secrets or tokens to your repo. Ownership verification is done entirely through GitHub OAuth.
-
-If you have any questions, feel free to ask here or reach out at [support@hol.org](mailto:support@hol.org)."""
+{action_sections}"""
 
 
 MARKER = "<!-- hol-claim-notice -->"
