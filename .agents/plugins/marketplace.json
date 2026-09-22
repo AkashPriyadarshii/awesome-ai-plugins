@@ -6277,6 +6277,21 @@
       "install_url": "https://raw.githubusercontent.com/fauguste/boondmanager-mcp-server/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Busabase",
+      "displayName": "Busabase",
+      "description": "Open-source database and workspace for AI agents to manage typed tables, fields, views, records, docs, files, and search with a Streamable HTTP MCP server and human-in-the-loop ChangeRequests",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "busabase",
+      "repo": "busabase",
+      "url": "https://github.com/busabase/busabase",
+      "install_url": "https://raw.githubusercontent.com/busabase/busabase/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Cadence Code",
       "displayName": "Cadence Code",
       "description": "Fully local voice conversations for Claude Code, Codex, Cursor, and Antigravity on Apple Silicon, with selectable MLX speech and transcription models",

@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-22",
-  "total": 480,
+  "total": 481,
   "platforms": [
     "codex",
     "grok",
@@ -5862,6 +5862,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/fauguste/boondmanager-mcp-server/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Busabase",
+      "url": "https://github.com/busabase/busabase",
+      "owner": "busabase",
+      "repo": "busabase",
+      "description": "Open-source database and workspace for AI agents to manage typed tables, fields, views, records, docs, files, and search with a Streamable HTTP MCP server and human-in-the-loop ChangeRequests",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/busabase/busabase/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
