@@ -5587,6 +5587,21 @@
       "install_url": "https://raw.githubusercontent.com/mohitagw15856/pm-claude-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Ponytail",
+      "displayName": "Ponytail",
+      "description": "Guides coding agents toward minimal working solutions through YAGNI, existing code, standard libraries, and native platform features",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "DietrichGebert",
+      "repo": "ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "install_url": "https://raw.githubusercontent.com/DietrichGebert/ponytail/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Professor",
       "displayName": "Professor",
       "description": "LLM-harness fleet framework for Claude Code, Codex, and OpenCode with a Go fleet CLI/TUI, cross-chat messaging, and a discipline layer of agents, commands, and hooks compiled across all three runtimes",
