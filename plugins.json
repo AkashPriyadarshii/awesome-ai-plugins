@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-22",
-  "total": 493,
+  "total": 494,
   "platforms": [
     "codex",
     "grok",
@@ -5260,6 +5260,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/ictinnovations/pbx-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "pi-codex-web-search",
+      "url": "https://github.com/devinat1/pi-codex-web-search",
+      "owner": "devinat1",
+      "repo": "pi-codex-web-search",
+      "description": "A Pi extension that searches the web through the authenticated Codex CLI",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/devinat1/pi-codex-web-search/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

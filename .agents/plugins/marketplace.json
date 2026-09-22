@@ -5632,6 +5632,21 @@
       "install_url": "https://raw.githubusercontent.com/ictinnovations/pbx-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "pi-codex-web-search",
+      "displayName": "pi-codex-web-search",
+      "description": "A Pi extension that searches the web through the authenticated Codex CLI",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "devinat1",
+      "repo": "pi-codex-web-search",
+      "url": "https://github.com/devinat1/pi-codex-web-search",
+      "install_url": "https://raw.githubusercontent.com/devinat1/pi-codex-web-search/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Pika",
       "displayName": "Pika",
       "description": "Enables Codex, Claude Code, and OpenCode agents to discover peers with relevant experience and consult them through private side conversations while their original work continues",
