@@ -3832,6 +3832,21 @@
       "install_url": "https://raw.githubusercontent.com/HERRY423/BioNexus/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "BioSymphony Structure Factory",
+      "displayName": "BioSymphony Structure Factory",
+      "description": "Turn structural biology questions into agent-ready campaigns for protein design, structure prediction, and model comparison, with reproducible workflows and verifiable results",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "BioSymphony",
+      "repo": "structure-factory",
+      "url": "https://github.com/BioSymphony/structure-factory",
+      "install_url": "https://raw.githubusercontent.com/BioSymphony/structure-factory/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Browser Harness",
       "displayName": "Browser Harness",
       "description": "MCP server and agent skill that connect an AI agent to a real browser through one editable CDP WebSocket",
