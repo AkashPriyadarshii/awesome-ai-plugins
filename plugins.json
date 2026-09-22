@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-22",
-  "total": 486,
+  "total": 487,
   "platforms": [
     "codex",
     "grok",
@@ -5610,6 +5610,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/datit309/supergraph/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "synthesis-skills",
+      "url": "https://github.com/synthesisengineering/synthesis-skills",
+      "owner": "synthesisengineering",
+      "repo": "synthesis-skills",
+      "description": "Engineering workflow skills (planning, review, rituals, fleet co-op) for Claude Code, Codex, and Muse, shipped through a gated cross-client release train",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/synthesisengineering/synthesis-skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

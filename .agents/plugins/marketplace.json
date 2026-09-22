@@ -6007,6 +6007,21 @@
       "install_url": "https://raw.githubusercontent.com/datit309/supergraph/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "synthesis-skills",
+      "displayName": "synthesis-skills",
+      "description": "Engineering workflow skills (planning, review, rituals, fleet co-op) for Claude Code, Codex, and Muse, shipped through a gated cross-client release train",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "synthesisengineering",
+      "repo": "synthesis-skills",
+      "url": "https://github.com/synthesisengineering/synthesis-skills",
+      "install_url": "https://raw.githubusercontent.com/synthesisengineering/synthesis-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "TaskDock",
       "displayName": "TaskDock",
       "description": "Resume agent tasks from current deliverables and decisions, with portable folders, link repair, and reversible file organization",
