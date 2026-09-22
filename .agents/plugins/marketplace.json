@@ -6641,6 +6641,21 @@
       "install_url": "https://raw.githubusercontent.com/ilyautov/humanizer-ru/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Hyreflow",
+      "displayName": "Hyreflow",
+      "description": "Recruitment automation plugin for Codex, Claude Code, Cowork and Cursor with Agent Skills and a remote OAuth MCP server: source, enrich, qualify and sequence candidates, then push them to your ATS on metered credits",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "automindz-solutions",
+      "repo": "hyreflow-plugins",
+      "url": "https://github.com/automindz-solutions/hyreflow-plugins",
+      "install_url": "https://raw.githubusercontent.com/automindz-solutions/hyreflow-plugins/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "im-ai-copyeditor",
       "displayName": "im-ai-copyeditor",
       "description": "Korean copyediting skill for coding agents that fixes spelling, translation-style phrasing, AI tone, and style sentence by sentence",
