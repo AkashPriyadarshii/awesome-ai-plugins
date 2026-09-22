@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-22",
-  "total": 478,
+  "total": 480,
   "platforms": [
     "codex",
     "grok",
@@ -6008,6 +6008,20 @@
       ]
     },
     {
+      "name": "GDS Agent",
+      "url": "https://github.com/neo4j-contrib/gds-agent",
+      "owner": "neo4j-contrib",
+      "repo": "gds-agent",
+      "description": "Graph data scientist as an MCP server and skill: project Neo4j graphs and run GDS algorithms for centrality, community, path finding, similarity, embeddings, and ML pipelines",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/neo4j-contrib/gds-agent/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "GodotPrompter",
       "url": "https://github.com/jame581/GodotPrompter",
       "owner": "jame581",
@@ -6673,6 +6687,19 @@
       "owner": "xiajiajun516",
       "repo": "dsh-config-manager",
       "description": "Backup, restore, export, import, migrate and sync your complete DeepSeek Harness (DSH) configuration \u2014 settings, model providers, plugins, MCP servers, skills, agent presets and workspaces \u2014 and restore your whole environment on a new machine with one click",
+      "category": "DeepSeek Harness Plugins",
+      "platform": "deepseek-harness",
+      "source": "awesome-ai-plugins",
+      "ecosystems": [
+        "deepseek-harness"
+      ]
+    },
+    {
+      "name": "dsh-plugin-hub",
+      "url": "https://github.com/wingsky-1/dsh-plugin-hub",
+      "owner": "wingsky-1",
+      "repo": "dsh-plugin-hub",
+      "description": "Plugin collection for the DeepSeek Harness web GUI: task notifications, provider usage tracking, MCP management, and LAN access",
       "category": "DeepSeek Harness Plugins",
       "platform": "deepseek-harness",
       "source": "awesome-ai-plugins",
