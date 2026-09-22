@@ -845,6 +845,21 @@
       "install_url": "https://raw.githubusercontent.com/reidemeister94/development-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "DevRecap",
+      "displayName": "DevRecap",
+      "description": "Reconstruct evidence-backed developer work from authorized Codex and Claude history plus read-only Git, then turn it into daily standups, weekly reviews, sprint recaps, and memory reports.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "jquinteiroo",
+      "repo": "devrecap",
+      "url": "https://github.com/jquinteiroo/devrecap",
+      "install_url": "https://raw.githubusercontent.com/jquinteiroo/devrecap/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Ditto",
       "displayName": "Ditto",
       "description": "Mines selected evidence from local coding-agent sessions into private work, design, and writing profiles for Codex, Claude Code, and GitHub Copilot.",
@@ -6561,6 +6576,21 @@
       "repo": "CloudBase-AI-Toolkit",
       "url": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit",
       "install_url": "https://raw.githubusercontent.com/TencentCloudBase/CloudBase-AI-Toolkit/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "Commercial Legal PL",
+      "displayName": "Commercial Legal PL",
+      "description": "Drafts and reviews contracts under Polish law (B2B IT, IP, settlements) with a clause library, doctrinal knowledge base, and \u00a7 / ust. / pkt cross-reference consistency checks",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "apiotrowski-afk",
+      "repo": "commercial-legal-pl",
+      "url": "https://github.com/apiotrowski-afk/commercial-legal-pl",
+      "install_url": "https://raw.githubusercontent.com/apiotrowski-afk/commercial-legal-pl/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Cordon",
