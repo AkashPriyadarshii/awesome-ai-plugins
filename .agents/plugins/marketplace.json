@@ -5497,6 +5497,21 @@
       "install_url": "https://raw.githubusercontent.com/DanMcInerney/orchflows/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "otelyssey",
+      "displayName": "otelyssey",
+      "description": "Marketplace of OpenTelemetry agent plugins (instrumentation, Collector, backends, observability) for Claude Code, Copilot CLI, Codex, Grok Build and more, run by the repository itself: submit a plugin.json URL, it validates, reviews, lists and follows releases",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "using-system",
+      "repo": "otelyssey",
+      "url": "https://github.com/using-system/otelyssey",
+      "install_url": "https://raw.githubusercontent.com/using-system/otelyssey/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "pbx-mcp",
       "displayName": "pbx-mcp",
       "description": "MCP server for Asterisk (AMI) and FreeSWITCH (ESL). Inspect channels, SIP registrations, trunks, and dialplan on a live PBX",
@@ -6110,6 +6125,21 @@
       "repo": "zui",
       "url": "https://github.com/easysoft/zui",
       "install_url": "https://raw.githubusercontent.com/easysoft/zui/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Agent402",
+      "displayName": "Agent402",
+      "description": "Open-source MCP server and x402 seller: 500+ tools for web search, rendering, PDFs, OCR, market and SEC data, paid per call in USDC or free via proof-of-work, no account or API key",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "MikeyPetrillo",
+      "repo": "Agent402",
+      "url": "https://github.com/MikeyPetrillo/Agent402",
+      "install_url": "https://raw.githubusercontent.com/MikeyPetrillo/Agent402/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "AgentCall",

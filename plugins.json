@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-22",
-  "total": 476,
+  "total": 478,
   "platforms": [
     "codex",
     "grok",
@@ -5139,6 +5139,20 @@
       ]
     },
     {
+      "name": "otelyssey",
+      "url": "https://github.com/using-system/otelyssey",
+      "owner": "using-system",
+      "repo": "otelyssey",
+      "description": "Marketplace of OpenTelemetry agent plugins (instrumentation, Collector, backends, observability) for Claude Code, Copilot CLI, Codex, Grok Build and more, run by the repository itself: submit a plugin.json URL, it validates, reviews, lists and follows releases",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/using-system/otelyssey/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "pbx-mcp",
       "url": "https://github.com/ictinnovations/pbx-mcp",
       "owner": "ictinnovations",
@@ -5708,6 +5722,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/easysoft/zui/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Agent402",
+      "url": "https://github.com/MikeyPetrillo/Agent402",
+      "owner": "MikeyPetrillo",
+      "repo": "Agent402",
+      "description": "Open-source MCP server and x402 seller: 500+ tools for web search, rendering, PDFs, OCR, market and SEC data, paid per call in USDC or free via proof-of-work, no account or API key",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/MikeyPetrillo/Agent402/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
