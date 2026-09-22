@@ -24,7 +24,9 @@ PR_NUMBER = os.environ.get("PR_NUMBER", "")
 PR_TITLE = os.environ.get("PR_TITLE", "")
 PR_AUTHOR = os.environ.get("PR_AUTHOR", "")
 REPO_FULL = os.environ.get("GITHUB_REPOSITORY", "")
-MAX_CATALOG_PAGES = 10
+MAX_CATALOG_PAGES = 100
+MAX_COMMENT_PAGES = 20
+CATALOG_REPO_CACHE = {}
 
 # Skip titles that aren't new plugin additions
 SKIP_PATTERNS = [
@@ -61,6 +63,10 @@ SKIP_PATTERNS = [
 
 class RegistryCatalogFetchError(RuntimeError):
     """Raised when Registry catalog evidence is unavailable or incomplete."""
+
+
+class GitHubCommentsFetchError(RuntimeError):
+    """Raised when existing claim comments cannot be checked completely."""
 
 
 def build_comment_body(author: str, repositories=(), pending_repositories=()) -> str:
@@ -129,6 +135,23 @@ def api_request(url, headers=None, method="GET", data=None):
         return None
 
 
+def fetch_merged_pr_metadata():
+    """Load trusted metadata for a manually dispatched claim notice."""
+    url = f"https://api.github.com/repos/{REPO_FULL}/pulls/{PR_NUMBER}"
+    headers = {"Authorization": f"token {GH_TOKEN}"}
+    data = api_request(url, headers=headers)
+    if not isinstance(data, dict):
+        return None
+    if not data.get("merged_at"):
+        return None
+    title = data.get("title")
+    user = data.get("user")
+    author = user.get("login") if isinstance(user, dict) else None
+    if not isinstance(title, str) or not isinstance(author, str):
+        return None
+    return title, author
+
+
 def should_skip_title(title: str) -> bool:
     """Return True if the PR title matches a non-plugin pattern."""
     # `docs: add <plugin>` is a common legitimate contribution title. Allow it
@@ -149,8 +172,15 @@ def fetch_catalog_repos(owner_verified: bool = False):
     errors, not evidence that a repository is absent. This prevents transient
     Registry failures from producing irreversible claim-notice markers.
     """
+    cache_key = "owner_verified" if owner_verified else "all"
+    if os.environ.get("CLAIM_NOTICE_CACHE_CATALOG") == "1":
+        cached = CATALOG_REPO_CACHE.get(cache_key)
+        if cached is not None:
+            return cached
+
     repos = set()
     cursor = None
+    seen_cursors = set()
     base_url = f"{REGISTRY_API}/plugins/catalog?limit=50"
     if owner_verified:
         base_url += "&ownerVerified=true"
@@ -173,9 +203,21 @@ def fetch_catalog_repos(owner_verified: bool = False):
             if repo:
                 repos.add(repo.lower())
 
-        cursor = data.get("nextCursor")
-        if not cursor:
+        next_cursor = data.get("nextCursor")
+        if not next_cursor:
+            if os.environ.get("CLAIM_NOTICE_CACHE_CATALOG") == "1":
+                CATALOG_REPO_CACHE[cache_key] = repos
             return repos
+        if not isinstance(next_cursor, str):
+            raise RegistryCatalogFetchError(
+                f"registry catalog page {page_index + 1} returned an invalid cursor"
+            )
+        if next_cursor in seen_cursors:
+            raise RegistryCatalogFetchError(
+                f"registry catalog repeated cursor {next_cursor!r}"
+            )
+        seen_cursors.add(next_cursor)
+        cursor = next_cursor
 
     raise RegistryCatalogFetchError(
         f"registry catalog exceeded {MAX_CATALOG_PAGES} pages"
@@ -231,19 +273,32 @@ def parse_pr_diff_for_repos():
 
 def has_existing_claim_comment():
     """Check if the PR already has a claim-notice or manual claim comment."""
-    url = f"https://api.github.com/repos/{REPO_FULL}/issues/{PR_NUMBER}/comments"
     headers = {"Authorization": f"token {GH_TOKEN}"}
-    comments = api_request(url, headers=headers)
-    if not isinstance(comments, list):
-        return False
-    for comment in comments:
-        body = comment.get("body") or ""
-        if MARKER in body:
-            return True
-        # Also detect manual claim comments posted before automation
-        if "Claim your plugin" in body and "hol.org/guard/plugins" in body:
-            return True
-    return False
+    for page in range(1, MAX_COMMENT_PAGES + 1):
+        url = (
+            f"https://api.github.com/repos/{REPO_FULL}/issues/{PR_NUMBER}/comments"
+            f"?per_page=100&page={page}"
+        )
+        comments = api_request(url, headers=headers)
+        if not isinstance(comments, list):
+            raise GitHubCommentsFetchError(
+                f"comments page {page} is unavailable"
+            )
+        for comment in comments:
+            if not isinstance(comment, dict):
+                continue
+            body = comment.get("body") or ""
+            if MARKER in body:
+                return True
+            # Also detect manual claim comments posted before automation
+            if "Claim your plugin" in body and "hol.org/guard/plugins" in body:
+                return True
+        if len(comments) < 100:
+            return False
+
+    raise GitHubCommentsFetchError(
+        f"comments exceeded {MAX_COMMENT_PAGES} pages"
+    )
 
 
 def post_comment(author: str, repositories=(), pending_repositories=()):
@@ -256,6 +311,8 @@ def post_comment(author: str, repositories=(), pending_repositories=()):
 
 
 def main():
+    global PR_AUTHOR, PR_TITLE
+
     # Validate required environment variables
     missing = []
     if not GH_TOKEN:
@@ -268,6 +325,13 @@ def main():
         print(f"Error: missing required environment variables: {', '.join(missing)}", file=sys.stderr)
         return 1
 
+    if os.environ.get("VERIFY_MERGED_PR") == "true":
+        metadata = fetch_merged_pr_metadata()
+        if metadata is None:
+            print("Error: PR metadata is unavailable or the PR is not merged", file=sys.stderr)
+            return 1
+        PR_TITLE, PR_AUTHOR = metadata
+
     print(f'PR #{PR_NUMBER}: "{PR_TITLE}" by @{PR_AUTHOR}')
 
     # 1. Skip non-plugin PRs
@@ -279,20 +343,24 @@ def main():
         print("  Skipping: bot/owner PR")
         return 0
 
-    # 2. Check for existing claim comment
-    if has_existing_claim_comment():
-        print("  Skipping: claim notice already posted")
-        return 0
+    # 2. Check for existing claim comment.
+    try:
+        if has_existing_claim_comment():
+            print("  Skipping: claim notice already posted")
+            return 0
+    except GitHubCommentsFetchError as error:
+        print(f"  Existing claim comment check failed: {error}", file=sys.stderr)
+        return 1
 
     # 3. Parse PR diff for GitHub repo URLs
     try:
         pr_repos = parse_pr_diff_for_repos()
     except subprocess.CalledProcessError as e:
         print(f"  Failed to get PR diff (exit {e.returncode}): {e.stderr}", file=sys.stderr)
-        return 0
+        return 1
     except subprocess.TimeoutExpired:
         print("  Failed to get PR diff: timed out", file=sys.stderr)
-        return 0
+        return 1
 
     if not pr_repos:
         print("  Skipping: no GitHub repo URLs found in PR diff")
@@ -307,8 +375,8 @@ def main():
     try:
         registry_repos = fetch_catalog_repos(owner_verified=False)
     except RegistryCatalogFetchError as error:
-        print(f"  Skipping: Registry catalog unavailable ({error})", file=sys.stderr)
-        return 0
+        print(f"  Registry catalog fetch failed: {error}", file=sys.stderr)
+        return 1
     print(f"  Registry has {len(registry_repos)} plugins")
 
     # 5. Split live Registry repos from catalog-source repos that are still syncing.
@@ -341,10 +409,10 @@ def main():
             verified_repos = fetch_catalog_repos(owner_verified=True)
         except RegistryCatalogFetchError as error:
             print(
-                f"  Skipping: owner-verification catalog unavailable ({error})",
+                f"  Owner-verification catalog fetch failed: {error}",
                 file=sys.stderr,
             )
-            return 0
+            return 1
         already_verified = live_repos & verified_repos
 
     claimable_repos = live_repos - already_verified
