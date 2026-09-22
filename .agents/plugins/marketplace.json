@@ -3727,6 +3727,21 @@
       "install_url": "https://raw.githubusercontent.com/Dunphil692/antigravity-context-meter/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "AREX-Skill",
+      "displayName": "AREX-Skill",
+      "description": "A library of 5,000+ verified, executable skills distilled from ML repositories for coding and research agents",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "VectorSpaceLab",
+      "repo": "AREX-Skill",
+      "url": "https://github.com/VectorSpaceLab/AREX-Skill",
+      "install_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Audio Plugin Coder",
       "displayName": "Audio Plugin Coder",
       "description": "Agent-agnostic JUCE workflow for building VST3/AU plugins from idea through design, implementation, test, and installer packaging",

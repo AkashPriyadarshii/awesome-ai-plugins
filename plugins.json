@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-22",
-  "total": 487,
+  "total": 488,
   "platforms": [
     "codex",
     "grok",
@@ -3482,6 +3482,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Dunphil692/antigravity-context-meter/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "AREX-Skill",
+      "url": "https://github.com/VectorSpaceLab/AREX-Skill",
+      "owner": "VectorSpaceLab",
+      "repo": "AREX-Skill",
+      "description": "A library of 5,000+ verified, executable skills distilled from ML repositories for coding and research agents",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
