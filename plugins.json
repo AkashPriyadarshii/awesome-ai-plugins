@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-22",
-  "total": 490,
+  "total": 492,
   "platforms": [
     "codex",
     "grok",
@@ -5811,6 +5811,20 @@
       ]
     },
     {
+      "name": "web-ai-agent-skills",
+      "url": "https://github.com/webmaxru/web-ai-agent-skills",
+      "owner": "webmaxru",
+      "repo": "web-ai-agent-skills",
+      "description": "Agent skills that guide coding agents through integrating browser Web AI APIs: Prompt API, Translator, Language Detector, Proofreader, WebMCP, and WebNN",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/webmaxru/web-ai-agent-skills/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "Windrunner",
       "url": "https://github.com/shzlw/windrunner",
       "owner": "shzlw",
@@ -5820,6 +5834,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/shzlw/windrunner/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "WorkFlowX",
+      "url": "https://github.com/TreeX-X/WorkFlowX",
+      "owner": "TreeX-X",
+      "repo": "WorkFlowX",
+      "description": "Multi-agent orchestration plugin for Claude Code and Codex that structures planning, coding, and independent evaluation of development tasks",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/TreeX-X/WorkFlowX/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
