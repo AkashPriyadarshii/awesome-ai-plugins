@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-22",
-  "total": 483,
+  "total": 484,
   "platforms": [
     "codex",
     "grok",
@@ -255,7 +255,7 @@
       "url": "https://github.com/archcore-ai/plugin",
       "owner": "archcore-ai",
       "repo": "plugin",
-      "description": "Gives coding agents the architecture, rules, and prior decisions of the repo via skills, hooks, and MCP \u2014 so new changes land where the project says they belong across Claude Code, Cursor, and Codex CLI.",
+      "description": "Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot \u2014 backed by project context in Git.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/archcore-ai/plugin/HEAD/plugins/archcore/.codex-plugin/plugin.json",
@@ -4814,6 +4814,20 @@
       "install_url": "https://raw.githubusercontent.com/PCIRCLE-AI/memesh/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Mental CLI",
+      "url": "https://github.com/afaraha8403/mental",
+      "owner": "afaraha8403",
+      "repo": "mental",
+      "description": "Local-first CLI that keeps where you left off and what\u2019s still open across agent sessions so you can pick up without reconstructing from memory",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/afaraha8403/mental/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

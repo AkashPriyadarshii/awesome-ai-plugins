@@ -262,7 +262,7 @@
     {
       "name": "Archcore",
       "displayName": "Archcore",
-      "description": "Gives coding agents the architecture, rules, and prior decisions of the repo via skills, hooks, and MCP \u2014 so new changes land where the project says they belong across Claude Code, Cursor, and Codex CLI.",
+      "description": "Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot \u2014 backed by project context in Git.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -5150,6 +5150,21 @@
       "repo": "memesh",
       "url": "https://github.com/PCIRCLE-AI/memesh",
       "install_url": "https://raw.githubusercontent.com/PCIRCLE-AI/memesh/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Mental CLI",
+      "displayName": "Mental CLI",
+      "description": "Local-first CLI that keeps where you left off and what\u2019s still open across agent sessions so you can pick up without reconstructing from memory",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "afaraha8403",
+      "repo": "mental",
+      "url": "https://github.com/afaraha8403/mental",
+      "install_url": "https://raw.githubusercontent.com/afaraha8403/mental/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "mermaid-for-claude",
