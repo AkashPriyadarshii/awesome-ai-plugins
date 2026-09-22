@@ -81,7 +81,7 @@ def build_comment_body(author: str, repositories=(), pending_repositories=()) ->
 
 Open the link for your plugin and choose **"Continue with GitHub"**. Use the GitHub account that maintains the repository. HOL requests only `read:user` and `user:email`; it does not request repository write access.
 
-After verification, the listing gets an owner-verified badge and the [plugin dashboard](https://hol.org/guard/plugins) shows its trust score, installs, and engagement. If GitHub permissions are inconclusive, the claim may require review.""")
+After verification, the listing gets an owner-verified badge and the plugin dashboard shows its trust score, installs, and engagement. If GitHub permissions are inconclusive, the claim may require review.""")
 
     if pending:
         pending_lines = "\n".join(f"- `{repo}`" for repo in pending)
