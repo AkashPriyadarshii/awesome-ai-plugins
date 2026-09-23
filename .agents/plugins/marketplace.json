@@ -3592,6 +3592,21 @@
       "install_url": "https://raw.githubusercontent.com/AgentTanuki/agent-guild-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "agent-kit",
+      "displayName": "agent-kit",
+      "description": "Extension pack of slash commands, skills, rules, and hooks adding plan-driven, confirmation-gated coding and staging-to-prod git workflows to Cursor and Claude Code",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "agent-kit-startup",
+      "repo": "agent-kit",
+      "url": "https://github.com/agent-kit-startup/agent-kit",
+      "install_url": "https://raw.githubusercontent.com/agent-kit-startup/agent-kit/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "agent-talk",
       "displayName": "agent-talk",
       "description": "Skills-based plugin built on the retalk CLI that gives coding agents end-to-end encrypted messaging with other agents, including agents run by other people, across Claude Code, Codex, Antigravity, pi, opencode, and GitHub Copilot CLI",
