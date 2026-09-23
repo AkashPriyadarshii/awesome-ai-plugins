@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-23",
-  "total": 500,
+  "total": 502,
   "platforms": [
     "codex",
     "grok",
@@ -5523,11 +5523,11 @@
       "repo": "searchlink-lite",
       "description": "Local read-only MCP server for Google Search Console: site performance and query breakdowns, low-CTR and rank 8-20 opportunities, URL inspection, sitemaps, on-page checks and Google ranking update history",
       "category": "Development & Workflow",
-      "platform": "codex",
+      "platform": "claude-code",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/GlobalMatchHub/searchlink-lite/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/GlobalMatchHub/searchlink-lite/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
-        "codex"
+        "claude-code"
       ]
     },
     {
@@ -6246,6 +6246,20 @@
       ]
     },
     {
+      "name": "edgeone-makers-tools",
+      "url": "https://github.com/TencentEdgeOne/edgeone-makers-tools",
+      "owner": "TencentEdgeOne",
+      "repo": "edgeone-makers-tools",
+      "description": "Agent skill for EdgeOne Makers, a one-stop deployment platform where developers rapidly deploy full-stack projects, cloud functions, and AI agents and instantly get a live URL, covering the full path from development to launch",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/TencentEdgeOne/edgeone-makers-tools/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "ego-browser",
       "url": "https://github.com/citrolabs/ego-lite",
       "owner": "citrolabs",
@@ -6538,6 +6552,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/rashidrazak/opencode-cmd-provider/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "opencode-stay-awake",
+      "url": "https://github.com/AuroraAeon/opencode-stay-awake",
+      "owner": "AuroraAeon",
+      "repo": "opencode-stay-awake",
+      "description": "OpenCode plugin that holds a system sleep inhibitor while a session is running, using caffeinate on macOS and systemd-inhibit on Linux, and releases it as soon as the work finishes",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/AuroraAeon/opencode-stay-awake/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

@@ -5907,14 +5907,14 @@
       "description": "Local read-only MCP server for Google Search Console: site performance and query breakdowns, low-CTR and rank 8-20 opportunities, URL inspection, sitemaps, on-page checks and Google ranking update history",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "platform": "codex",
+      "platform": "claude-code",
       "ecosystems": [
-        "codex"
+        "claude-code"
       ],
       "owner": "GlobalMatchHub",
       "repo": "searchlink-lite",
       "url": "https://github.com/GlobalMatchHub/searchlink-lite",
-      "install_url": "https://raw.githubusercontent.com/GlobalMatchHub/searchlink-lite/HEAD/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/GlobalMatchHub/searchlink-lite/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "SEO Skills AI",
@@ -6683,6 +6683,21 @@
       "install_url": "https://raw.githubusercontent.com/cdeust/Cortex/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "edgeone-makers-tools",
+      "displayName": "edgeone-makers-tools",
+      "description": "Agent skill for EdgeOne Makers, a one-stop deployment platform where developers rapidly deploy full-stack projects, cloud functions, and AI agents and instantly get a live URL, covering the full path from development to launch",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "TencentEdgeOne",
+      "repo": "edgeone-makers-tools",
+      "url": "https://github.com/TencentEdgeOne/edgeone-makers-tools",
+      "install_url": "https://raw.githubusercontent.com/TencentEdgeOne/edgeone-makers-tools/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "ego-browser",
       "displayName": "ego-browser",
       "description": "Browser automation for AI agents through ego lite, a Chromium browser where agents navigate pages, fill forms, capture screenshots, and extract data in isolated task spaces that reuse the user's existing logins",
@@ -6999,6 +7014,21 @@
       "repo": "opencode-cmd-provider",
       "url": "https://github.com/rashidrazak/opencode-cmd-provider",
       "install_url": "https://raw.githubusercontent.com/rashidrazak/opencode-cmd-provider/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "opencode-stay-awake",
+      "displayName": "opencode-stay-awake",
+      "description": "OpenCode plugin that holds a system sleep inhibitor while a session is running, using caffeinate on macOS and systemd-inhibit on Linux, and releases it as soon as the work finishes",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "AuroraAeon",
+      "repo": "opencode-stay-awake",
+      "url": "https://github.com/AuroraAeon/opencode-stay-awake",
+      "install_url": "https://raw.githubusercontent.com/AuroraAeon/opencode-stay-awake/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "opencode-visual-cache",
