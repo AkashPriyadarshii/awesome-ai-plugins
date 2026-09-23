@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-23",
-  "total": 497,
+  "total": 498,
   "platforms": [
     "codex",
     "grok",
@@ -3414,6 +3414,20 @@
       "install_url": "https://raw.githubusercontent.com/tidusvn05/agentwiki/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "agmsg",
+      "url": "https://github.com/fujibee/agmsg",
+      "owner": "fujibee",
+      "repo": "agmsg",
+      "description": "Cross-vendor messaging for CLI coding agents (Claude Code, Codex, Gemini CLI, Grok): sessions join a team by name and hand work to each other through a shared local SQLite file, with durable history and ext-tool members that let a program such as Slack or Jev join like any agent",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/fujibee/agmsg/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

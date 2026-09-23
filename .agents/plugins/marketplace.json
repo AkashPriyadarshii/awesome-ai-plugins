@@ -3652,6 +3652,21 @@
       "install_url": "https://raw.githubusercontent.com/tidusvn05/agentwiki/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "agmsg",
+      "displayName": "agmsg",
+      "description": "Cross-vendor messaging for CLI coding agents (Claude Code, Codex, Gemini CLI, Grok): sessions join a team by name and hand work to each other through a shared local SQLite file, with durable history and ext-tool members that let a program such as Slack or Jev join like any agent",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "fujibee",
+      "repo": "agmsg",
+      "url": "https://github.com/fujibee/agmsg",
+      "install_url": "https://raw.githubusercontent.com/fujibee/agmsg/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Agnostic-AI",
       "displayName": "Agnostic-AI",
       "description": "Capture your Claude Code or Codex harness once (rules, hooks, skills, subagents, commands and MCP servers) and apply it identically to Gemini CLI, Cursor, Antigravity and 16 more clients",
