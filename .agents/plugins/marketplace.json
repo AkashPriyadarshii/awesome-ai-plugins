@@ -4492,6 +4492,21 @@
       "install_url": "https://raw.githubusercontent.com/rakoo04/ga4-gsc-clarity-mcp-server/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Gangsta Agents",
+      "displayName": "Gangsta Agents",
+      "description": "Agent skills providing a spec-driven development pipeline with reconnaissance, adversarial debate, TDD execution, and verification phases for Claude Code, Codex, Cursor, OpenCode, and Gemini CLI",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "kucherenko",
+      "repo": "gangsta",
+      "url": "https://github.com/kucherenko/gangsta",
+      "install_url": "https://raw.githubusercontent.com/kucherenko/gangsta/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "genie",
       "displayName": "genie",
       "description": "Agent skills and CLI that interview a wish into a plan, dispatch parallel subagents, and review results against acceptance criteria",
@@ -4565,6 +4580,21 @@
       "repo": "mcp-grafana",
       "url": "https://github.com/jburgess/mcp-grafana",
       "install_url": "https://raw.githubusercontent.com/jburgess/mcp-grafana/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "grip",
+      "displayName": "grip",
+      "description": "Git hook that quizzes you on your own diff before commit or push, with a Claude Code plugin plus Codex and Gemini CLI support",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "guilyx",
+      "repo": "grip",
+      "url": "https://github.com/guilyx/grip",
+      "install_url": "https://raw.githubusercontent.com/guilyx/grip/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Groundwork",
