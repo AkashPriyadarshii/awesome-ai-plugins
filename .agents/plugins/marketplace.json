@@ -5617,6 +5617,21 @@
       "install_url": "https://raw.githubusercontent.com/FrancoStino/opencode-skills-collection/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-synced",
+      "displayName": "opencode-synced",
+      "description": "OpenCode plugin that syncs global configuration and skills across machines via Git, with optional sessions and secrets for private repositories",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "iHildy",
+      "repo": "opencode-synced",
+      "url": "https://github.com/iHildy/opencode-synced",
+      "install_url": "https://raw.githubusercontent.com/iHildy/opencode-synced/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "opencode-weave",
       "displayName": "opencode-weave",
       "description": "OpenCode plugin providing multi-agent orchestration with specialized agents, category task dispatch, and background sub-agent execution",
