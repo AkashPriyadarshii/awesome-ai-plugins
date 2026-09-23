@@ -6262,6 +6262,21 @@
       "install_url": "https://raw.githubusercontent.com/nikolai-vysotskyi/trace-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "traceway",
+      "displayName": "traceway",
+      "description": "Agent skills that instrument repositories with Traceway OpenTelemetry monitoring and query production exceptions, logs, endpoints, and metrics",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "tracewayapp",
+      "repo": "traceway",
+      "url": "https://github.com/tracewayapp/traceway",
+      "install_url": "https://raw.githubusercontent.com/tracewayapp/traceway/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "trigger-tree",
       "displayName": "trigger-tree",
       "description": "Local documentation telemetry for Claude Code and Codex: see which docs your agent actually reads, gate discoverability in CI, and measure instruction adherence",
