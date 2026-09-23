@@ -3802,21 +3802,6 @@
       "install_url": "https://raw.githubusercontent.com/Dunphil692/antigravity-context-meter/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "Archcore",
-      "displayName": "Archcore",
-      "description": "Gives coding agents the architecture, rules, and prior decisions of the repo via skills, hooks, and MCP \u2014 so new changes land where the project says they belong across Claude Code, Cursor, and Codex CLI",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "archcore-ai",
-      "repo": "plugin",
-      "url": "https://github.com/archcore-ai/plugin",
-      "install_url": "https://raw.githubusercontent.com/archcore-ai/plugin/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "AREX-Skill",
       "displayName": "AREX-Skill",
       "description": "A library of 5,000+ verified, executable skills distilled from ML repositories for coding and research agents",
@@ -6215,6 +6200,21 @@
       "repo": "suede-creator-skills",
       "url": "https://github.com/JasonColapietro/suede-creator-skills",
       "install_url": "https://raw.githubusercontent.com/JasonColapietro/suede-creator-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Super Jev",
+      "displayName": "Super Jev",
+      "description": "One judge between your agent and your data: finds the right skill and file, checks claims, gates actions, and remembers only the answers you approve",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Kevthetech143",
+      "repo": "super-jev",
+      "url": "https://github.com/Kevthetech143/super-jev",
+      "install_url": "https://raw.githubusercontent.com/Kevthetech143/super-jev/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "super-token-saver",
