@@ -1627,7 +1627,7 @@
     {
       "name": "spec-superflow",
       "displayName": "spec-superflow",
-      "description": "Lean spec workflow with direct or planned execution, optional specifications, one final review by default, recoverable state, and delta spec sync.",
+      "description": "Lean spec workflow with direct or planned execution, optional specifications, one final review by default, recoverable state, and a bundled same-version CLI runtime.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -4910,6 +4910,21 @@
       "repo": "JevScout",
       "url": "https://github.com/hqman/JevScout",
       "install_url": "https://raw.githubusercontent.com/hqman/JevScout/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "jevyoumean",
+      "displayName": "jevyoumean",
+      "description": "CLI wrapper that uses TypeSafe's Jev to give semantic \"Did you mean?\" suggestions for mistyped subcommands, matching by intent rather than edit distance (e.g. `git record` \u2192 `git commit`)",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "syumai",
+      "repo": "jevyoumean",
+      "url": "https://github.com/syumai/jevyoumean",
+      "install_url": "https://raw.githubusercontent.com/syumai/jevyoumean/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Jump Skills",
