@@ -2709,7 +2709,7 @@
     {
       "name": "Jev Social",
       "displayName": "Jev Social",
-      "description": "Read-only Instagram, TikTok, and LinkedIn research in the user's local browser, with Jev selecting bounded operations and the socai CLI returning source-linked evidence and reports.",
+      "description": "Read-only Instagram, TikTok, and LinkedIn research in the user's Chrome, with Jev selecting bounded operations and the socai CLI streaming posts, comments, video evidence, and source-linked reports.",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -6500,6 +6500,21 @@
       "repo": "zui",
       "url": "https://github.com/easysoft/zui",
       "install_url": "https://raw.githubusercontent.com/easysoft/zui/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Agent QA",
+      "displayName": "Agent QA",
+      "description": "Source-available MCP server and Agent Skills for authoring, running, and triaging natural-language web and mobile application tests with reusable execution memory",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "vostride",
+      "repo": "agent-qa",
+      "url": "https://github.com/vostride/agent-qa",
+      "install_url": "https://raw.githubusercontent.com/vostride/agent-qa/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Agent402",

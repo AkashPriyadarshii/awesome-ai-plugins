@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-23",
-  "total": 512,
+  "total": 513,
   "platforms": [
     "codex",
     "grok",
@@ -2539,7 +2539,7 @@
       "url": "https://github.com/socai-io/jev-social",
       "owner": "socai-io",
       "repo": "jev-social",
-      "description": "Read-only Instagram, TikTok, and LinkedIn research in the user's local browser, with Jev selecting bounded operations and the socai CLI returning source-linked evidence and reports.",
+      "description": "Read-only Instagram, TikTok, and LinkedIn research in the user's Chrome, with Jev selecting bounded operations and the socai CLI streaming posts, comments, video evidence, and source-linked reports.",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/socai-io/jev-social/HEAD/.codex-plugin/plugin.json",
@@ -6072,6 +6072,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/easysoft/zui/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Agent QA",
+      "url": "https://github.com/vostride/agent-qa",
+      "owner": "vostride",
+      "repo": "agent-qa",
+      "description": "Source-available MCP server and Agent Skills for authoring, running, and triaging natural-language web and mobile application tests with reusable execution memory",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/vostride/agent-qa/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
