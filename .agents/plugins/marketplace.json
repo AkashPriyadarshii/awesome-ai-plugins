@@ -3577,6 +3577,21 @@
       "install_url": "https://raw.githubusercontent.com/2718labs/2718lab-devkit/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "ab-method",
+      "displayName": "ab-method",
+      "description": "A skill and workflow plugin for Claude Code and Codex that grills problems into plans and drives test-driven missions with critic reviews",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ayoubben18",
+      "repo": "ab-method",
+      "url": "https://github.com/ayoubben18/ab-method",
+      "install_url": "https://raw.githubusercontent.com/ayoubben18/ab-method/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Agent Context OS",
       "displayName": "Agent Context OS",
       "description": "Portable Git-backed context and session workflow layer with first-class Claude Code, Codex, and OpenClaw support plus experimental adapters for Hermes, Cursor, and Devin",
