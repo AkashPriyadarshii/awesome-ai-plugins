@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-23",
-  "total": 508,
+  "total": 511,
   "platforms": [
     "codex",
     "grok",
@@ -252,13 +252,13 @@
     },
     {
       "name": "Archcore",
-      "url": "https://github.com/archcore-ai/plugin",
+      "url": "https://github.com/archcore-ai/archcore",
       "owner": "archcore-ai",
-      "repo": "plugin",
+      "repo": "archcore",
       "description": "Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot \u2014 backed by project context in Git.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/archcore-ai/plugin/HEAD/plugins/archcore/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/archcore-ai/archcore/HEAD/plugins/archcore/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -3543,6 +3543,20 @@
       ]
     },
     {
+      "name": "Archcore",
+      "url": "https://github.com/archcore-ai/plugin",
+      "owner": "archcore-ai",
+      "repo": "plugin",
+      "description": "Gives coding agents the architecture, rules, and prior decisions of the repo via skills, hooks, and MCP \u2014 so new changes land where the project says they belong across Claude Code, Cursor, and Codex CLI",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/archcore-ai/plugin/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "AREX-Skill",
       "url": "https://github.com/VectorSpaceLab/AREX-Skill",
       "owner": "VectorSpaceLab",
@@ -4798,6 +4812,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/techygarg/lattice/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "limitwise",
+      "url": "https://github.com/aarsht7/limitwise",
+      "owner": "aarsht7",
+      "repo": "limitwise",
+      "description": "Schedule and automate Codex work while respecting rolling and weekly usage limits in percentage or in tokens. Let your PC work while you sleep",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/aarsht7/limitwise/HEAD/plugins/limitwise/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -6596,6 +6624,20 @@
       "install_url": "https://raw.githubusercontent.com/olgasafonova/miro-mcp-server/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Mnemoverse Memory",
+      "url": "https://github.com/mnemoverse/claude-plugin",
+      "owner": "mnemoverse",
+      "repo": "claude-plugin",
+      "description": "Claude Code plugin for hosted AI agent memory over MCP that learns from outcomes: tell it a recalled memory helped or misled and it re-ranks what comes back next, with shared rooms for multi-agent work and browser OAuth sign-in instead of an API key",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/mnemoverse/claude-plugin/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

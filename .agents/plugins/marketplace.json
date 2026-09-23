@@ -270,9 +270,9 @@
         "codex"
       ],
       "owner": "archcore-ai",
-      "repo": "plugin",
-      "url": "https://github.com/archcore-ai/plugin",
-      "install_url": "https://raw.githubusercontent.com/archcore-ai/plugin/HEAD/plugins/archcore/.codex-plugin/plugin.json"
+      "repo": "archcore",
+      "url": "https://github.com/archcore-ai/archcore",
+      "install_url": "https://raw.githubusercontent.com/archcore-ai/archcore/HEAD/plugins/archcore/.codex-plugin/plugin.json"
     },
     {
       "name": "ArmorCodex",
@@ -3787,6 +3787,21 @@
       "install_url": "https://raw.githubusercontent.com/Dunphil692/antigravity-context-meter/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Archcore",
+      "displayName": "Archcore",
+      "description": "Gives coding agents the architecture, rules, and prior decisions of the repo via skills, hooks, and MCP \u2014 so new changes land where the project says they belong across Claude Code, Cursor, and Codex CLI",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "archcore-ai",
+      "repo": "plugin",
+      "url": "https://github.com/archcore-ai/plugin",
+      "install_url": "https://raw.githubusercontent.com/archcore-ai/plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "AREX-Skill",
       "displayName": "AREX-Skill",
       "description": "A library of 5,000+ verified, executable skills distilled from ML repositories for coding and research agents",
@@ -5135,6 +5150,21 @@
       "repo": "lattice",
       "url": "https://github.com/techygarg/lattice",
       "install_url": "https://raw.githubusercontent.com/techygarg/lattice/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "limitwise",
+      "displayName": "limitwise",
+      "description": "Schedule and automate Codex work while respecting rolling and weekly usage limits in percentage or in tokens. Let your PC work while you sleep",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "aarsht7",
+      "repo": "limitwise",
+      "url": "https://github.com/aarsht7/limitwise",
+      "install_url": "https://raw.githubusercontent.com/aarsht7/limitwise/HEAD/plugins/limitwise/.codex-plugin/plugin.json"
     },
     {
       "name": "LinkedIn Animated Infographics",
@@ -7059,6 +7089,21 @@
       "repo": "miro-mcp-server",
       "url": "https://github.com/olgasafonova/miro-mcp-server",
       "install_url": "https://raw.githubusercontent.com/olgasafonova/miro-mcp-server/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Mnemoverse Memory",
+      "displayName": "Mnemoverse Memory",
+      "description": "Claude Code plugin for hosted AI agent memory over MCP that learns from outcomes: tell it a recalled memory helped or misled and it re-ranks what comes back next, with shared rooms for multi-agent work and browser OAuth sign-in instead of an API key",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "mnemoverse",
+      "repo": "claude-plugin",
+      "url": "https://github.com/mnemoverse/claude-plugin",
+      "install_url": "https://raw.githubusercontent.com/mnemoverse/claude-plugin/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Nimble",
