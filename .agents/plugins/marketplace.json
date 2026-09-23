@@ -1490,6 +1490,21 @@
       "install_url": "https://raw.githubusercontent.com/redfox-data/redfox-agent-plugins/HEAD/plugins/account-video-downloader/.codex-plugin/plugin.json"
     },
     {
+      "name": "Rekall",
+      "displayName": "Rekall",
+      "description": "Deliberate context compaction within a single Codex thread on the VS Code extension, with a verified task handoff and one-time automatic continuation.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "DitriXNew",
+      "repo": "rekall",
+      "url": "https://github.com/DitriXNew/rekall",
+      "install_url": "https://raw.githubusercontent.com/DitriXNew/rekall/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Reviewable HTML Workbench",
       "displayName": "Reviewable HTML Workbench",
       "description": "Generate reviewable HTML documents, serve previews, collect inline review comments, and feed review outcomes back into agent workflows.",
@@ -5842,6 +5857,21 @@
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/repo-audit/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Rider Skills",
+      "displayName": "Rider Skills",
+      "description": "Official JetBrains Rider agent skills that let AI coding agents use the IDE's semantic code understanding, refactoring, debugger, and test tooling in .NET and Unreal Engine projects",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "JetBrains",
+      "repo": "rider-skills",
+      "url": "https://github.com/JetBrains/rider-skills",
+      "install_url": "https://raw.githubusercontent.com/JetBrains/rider-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Rootly MCP Server",
       "displayName": "Rootly MCP Server",
       "description": "Manage and resolve production incidents from MCP-compatible AI assistants through dynamically generated, access-controlled Rootly API tools",
@@ -6485,6 +6515,21 @@
       "repo": "anycap",
       "url": "https://github.com/anycap-ai/anycap",
       "install_url": "https://raw.githubusercontent.com/anycap-ai/anycap/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Arize Skills",
+      "displayName": "Arize Skills",
+      "description": "A collection of agent skills for adding Arize observability and managing tracing, datasets, experiments, and prompt workflows via the Arize ax CLI",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Arize-ai",
+      "repo": "arize-skills",
+      "url": "https://github.com/Arize-ai/arize-skills",
+      "install_url": "https://raw.githubusercontent.com/Arize-ai/arize-skills/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Azure Cosmos DB Agent Kit",
