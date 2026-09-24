@@ -2405,6 +2405,21 @@
       "install_url": "https://raw.githubusercontent.com/greg-asher/codex-obsidian/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Codex Reset",
+      "displayName": "Codex Reset",
+      "description": "Hosted read-only MCP tools for when Codex usage limits reset: 24/48h reset forecast, verified reset record with sources, and outage-vs-limit service status.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "suvadadepolo-blip",
+      "repo": "codex-reset-mcp",
+      "url": "https://github.com/suvadadepolo-blip/codex-reset-mcp",
+      "install_url": "https://raw.githubusercontent.com/suvadadepolo-blip/codex-reset-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Codex SEO",
       "displayName": "Codex SEO",
       "description": "Full-stack SEO audits, Google API workflows, backlinks analysis, reporting, and optional MCP extensions for Codex.",

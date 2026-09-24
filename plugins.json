@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-24",
-  "total": 515,
+  "total": 516,
   "platforms": [
     "codex",
     "grok",
@@ -2247,6 +2247,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/greg-asher/codex-obsidian/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Codex Reset",
+      "url": "https://github.com/suvadadepolo-blip/codex-reset-mcp",
+      "owner": "suvadadepolo-blip",
+      "repo": "codex-reset-mcp",
+      "description": "Hosted read-only MCP tools for when Codex usage limits reset: 24/48h reset forecast, verified reset record with sources, and outage-vs-limit service status.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/suvadadepolo-blip/codex-reset-mcp/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
