@@ -413,7 +413,14 @@ def main():
         if os.path.exists(readme_path):
             readme_content = open(readme_path, encoding="utf-8").read().lower()
             pending_repos = {
-                repo for repo in missing_from_registry if repo.lower() in readme_content
+                repo
+                for repo in missing_from_registry
+                if re.search(
+                    r"(?<![A-Za-z0-9_.-])"
+                    + re.escape(repo.lower())
+                    + r"(?![A-Za-z0-9_.-])",
+                    readme_content,
+                )
             }
             if pending_repos:
                 print(f"  Pending registry sync: {', '.join(sorted(pending_repos))}")
@@ -444,6 +451,13 @@ def main():
         print(f"  Already verified: {', '.join(sorted(already_verified))}")
 
     if not claimable_repos:
+        if isinstance(existing_notice, dict) and existing_notice.get("deferred"):
+            print("  Clearing deferred notice; repositories are already verified")
+            if update_comment(existing_notice.get("id"), PR_AUTHOR, set()):
+                print("  ✅ Deferred notice cleared")
+                return 0
+            print("  ❌ Failed to clear deferred notice")
+            return 1
         print("  Skipping: all matched repos are already owner-verified")
         return 0
 
