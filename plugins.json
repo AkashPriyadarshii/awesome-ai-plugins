@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-24",
-  "total": 517,
+  "total": 518,
   "platforms": [
     "codex",
     "grok",
@@ -763,6 +763,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Pythoughts-labs/designer-skill/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Devin Plugin CC",
+      "url": "https://github.com/TheOnlyFusionCube/devin-plugin-cc",
+      "owner": "TheOnlyFusionCube",
+      "repo": "devin-plugin-cc",
+      "description": "Devin AI code reviews, delegated tasks, Fusion lead/sidekick workflows, and cloud handoffs to app.devin.ai for Codex, Claude Code, and other coding agents.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/TheOnlyFusionCube/devin-plugin-cc/HEAD/plugins/devin/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"

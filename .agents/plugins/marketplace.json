@@ -815,6 +815,21 @@
       "install_url": "https://raw.githubusercontent.com/Pythoughts-labs/designer-skill/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Devin Plugin CC",
+      "displayName": "Devin Plugin CC",
+      "description": "Devin AI code reviews, delegated tasks, Fusion lead/sidekick workflows, and cloud handoffs to app.devin.ai for Codex, Claude Code, and other coding agents.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "TheOnlyFusionCube",
+      "repo": "devin-plugin-cc",
+      "url": "https://github.com/TheOnlyFusionCube/devin-plugin-cc",
+      "install_url": "https://raw.githubusercontent.com/TheOnlyFusionCube/devin-plugin-cc/HEAD/plugins/devin/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Dev Skills",
       "displayName": "Dev Skills",
       "description": "Team workflow skills for specs, plans, TDD, debugging, verification, review, branch finishing, and design context.",
