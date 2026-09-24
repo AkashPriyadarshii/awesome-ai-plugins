@@ -100,12 +100,17 @@ def build_comment_body(author: str, repositories=(), pending_repositories=()) ->
     """
 
     claimable = sorted(set(repositories) | set(pending_repositories))
-    if claimable:
-        claim_links = "\n".join(
-            f"- [Verify ownership of `{repo}`]({claim_link(repo)})" for repo in claimable
-        )
-    else:
-        claim_links = "[Open the plugin dashboard](https://hol.org/guard/plugins)"
+    if not claimable:
+        return f"""<!-- hol-claim-notice -->
+Hey @{author}, ownership of this contribution is already verified.
+
+[Open the plugin dashboard](https://hol.org/guard/plugins)
+
+The listing shows its owner-verified badge, trust score, installs, and engagement."""
+
+    claim_links = "\n".join(
+        f"- [Verify ownership of `{repo}`]({claim_link(repo)})" for repo in claimable
+    )
 
     return f"""<!-- hol-claim-notice -->
 Hey @{author}, your plugin is merged into the HOL catalog and ready to claim.

@@ -178,6 +178,8 @@ class ClaimNoticeTests(unittest.TestCase):
     def test_empty_repository_set_retains_a_usable_dashboard_link(self):
         body = MODULE.build_comment_body("author")
         self.assertIn("[Open the plugin dashboard]", body)
+        self.assertIn("already verified", body)
+        self.assertNotIn("ready to claim", body)
         self.assertNotIn("?claim=", body)
 
 
