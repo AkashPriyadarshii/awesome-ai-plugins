@@ -6367,6 +6367,21 @@
       "install_url": "https://raw.githubusercontent.com/heggria/taskflow/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "telepathy",
+      "displayName": "telepathy",
+      "description": "Lets coding-agent sessions on one machine (Claude Code, Codex, OpenCode, Gemini CLI, Copilot CLI, Cursor, Grok, Devin, Antigravity, Kimi Code, Qwen Code, Kilo Code) find and message each other through the same three MCP tools, starting a turn in an idle session where the agent allows it, with no network calls or telemetry",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Winterrks",
+      "repo": "telepathy",
+      "url": "https://github.com/Winterrks/telepathy",
+      "install_url": "https://raw.githubusercontent.com/Winterrks/telepathy/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "TermaGITchi",
       "displayName": "TermaGITchi",
       "description": "Stable per-worktree identity for parallel Claude Code, Codex, and tmux sessions; mood reads repository hygiene, not what the agent is doing",
