@@ -5482,6 +5482,21 @@
       "install_url": "https://raw.githubusercontent.com/btspoony/mstar-harness/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Munim",
+      "displayName": "Munim",
+      "description": "Multi-account MCP server that holds a separate OAuth session per client across 11 providers, forwards each provider's own tools with that client's credentials, and refuses any call that would send one client's credential to another host",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "vishalsg42",
+      "repo": "munim",
+      "url": "https://github.com/vishalsg42/munim",
+      "install_url": "https://raw.githubusercontent.com/vishalsg42/munim/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Mycelium",
       "displayName": "Mycelium",
       "description": "Gives Claude Code and Codex analytical repositories durable memory for decisions, findings, provenance, reusable conventions, and analysis workflows",

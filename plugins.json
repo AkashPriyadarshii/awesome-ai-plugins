@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-24",
-  "total": 516,
+  "total": 517,
   "platforms": [
     "codex",
     "grok",
@@ -5120,6 +5120,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/btspoony/mstar-harness/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Munim",
+      "url": "https://github.com/vishalsg42/munim",
+      "owner": "vishalsg42",
+      "repo": "munim",
+      "description": "Multi-account MCP server that holds a separate OAuth session per client across 11 providers, forwards each provider's own tools with that client's credentials, and refuses any call that would send one client's credential to another host",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/vishalsg42/munim/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
