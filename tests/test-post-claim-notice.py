@@ -34,18 +34,18 @@ class ClaimNoticeTests(unittest.TestCase):
         ), patch.object(MODULE, "post_comment", return_value=True) as post:
             self.assertEqual(MODULE.main(), 0)
             post.assert_called_once_with(
-                "author", {"owner/synced"}, {"owner/pending"}
+                "author", {"owner/pending", "owner/synced"}
             )
 
-    def test_pending_repository_has_no_claim_link(self):
+    def test_catalog_repository_is_claimable_before_registry_sync(self):
         body = MODULE.build_comment_body(
             "author", repositories=(), pending_repositories={"owner/pending"}
         )
-        self.assertIn("`owner/pending`", body)
-        self.assertIn("Still syncing", body)
-        self.assertIn("No action is needed yet", body)
-        self.assertNotIn("claim=owner%2Fpending", body)
-        self.assertNotIn("Verify ownership of `owner/pending`", body)
+        self.assertIn("ready to claim", body)
+        self.assertIn("claim=owner%2Fpending", body)
+        self.assertIn("Verify ownership of `owner/pending`", body)
+        self.assertNotIn("Still syncing", body)
+        self.assertNotIn("No action is needed yet", body)
 
     def test_all_pending_submissions_still_post_sync_status(self):
         with patch.multiple(
@@ -65,7 +65,7 @@ class ClaimNoticeTests(unittest.TestCase):
             "builtins.open", mock_open(read_data="https://github.com/owner/pending")
         ), patch.object(MODULE, "post_comment", return_value=True) as post:
             self.assertEqual(MODULE.main(), 0)
-            post.assert_called_once_with("author", set(), {"owner/pending"})
+            post.assert_called_once_with("author", {"owner/pending"})
 
     def test_registry_fetch_failure_fails_without_posting_a_notice(self):
         with patch.multiple(
