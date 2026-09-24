@@ -5542,6 +5542,21 @@
       "install_url": "https://raw.githubusercontent.com/XTSoftwareLabs/neatcontext-plugins/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Neo",
+      "displayName": "Neo",
+      "description": "Code reasoning plugin for Claude Code and Codex that runs multi-agent analysis over relevant repository files and keeps a local semantic memory, promoting a lesson only after its suggestions are verified as accepted in git",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Parslee-ai",
+      "repo": "neo",
+      "url": "https://github.com/Parslee-ai/neo",
+      "install_url": "https://raw.githubusercontent.com/Parslee-ai/neo/HEAD/plugins/neo/.codex-plugin/plugin.json"
+    },
+    {
       "name": "NixKits",
       "displayName": "NixKits",
       "description": "Declarative Nix flake collection that keeps coding-agent packages and NixOS modules updated and reproducible, with maintenance skills covering upstream version checks, NixOS CLI usage, config recovery, and multilingual project docs",

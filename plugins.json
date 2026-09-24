@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-24",
-  "total": 518,
+  "total": 519,
   "platforms": [
     "codex",
     "grok",
@@ -5176,6 +5176,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/XTSoftwareLabs/neatcontext-plugins/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Neo",
+      "url": "https://github.com/Parslee-ai/neo",
+      "owner": "Parslee-ai",
+      "repo": "neo",
+      "description": "Code reasoning plugin for Claude Code and Codex that runs multi-agent analysis over relevant repository files and keeps a local semantic memory, promoting a lesson only after its suggestions are verified as accepted in git",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Parslee-ai/neo/HEAD/plugins/neo/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
