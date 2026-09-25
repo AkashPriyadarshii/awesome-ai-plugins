@@ -274,6 +274,7 @@ Third-party plugins built by the community. [PRs welcome](#contributing)!
 - [jevcheck](https://github.com/sathariels/jevcheck) - Model-upgrade contract CLI for TypeSafe Jev (fixture eval, record/compare, CI-friendly exits); `pip install jevcheck`.
 - [JevPromptCoach](https://github.com/CrowdLinker/JevPromptCoach) - Claude Code plugin that scores how well you prompt a coding agent and tracks whether your habits improve over time, running on TypeSafe's Jev model with no added latency on the prompt path.
 - [JevScout](https://github.com/hqman/JevScout) - Autonomous job hunt orchestrator powered by TypeSafe Jev and Chrome DevTools Protocol to discover and evaluate AI engineering roles.
+- [jev-superpowers](https://github.com/AkashPriyadarshii/jev-superpowers) - Cross-platform skills collection that gates brainstorming, planning, execution, debugging, and completion workflows with typed decision checks.
 - [jevyoumean](https://github.com/syumai/jevyoumean) - CLI wrapper that uses TypeSafe's Jev to give semantic "Did you mean?" suggestions for mistyped subcommands, matching by intent rather than edit distance (e.g. `git record` → `git commit`).
 - [Jump Skills](https://github.com/fabricioctelles/jump-skills) - Meta-skills that route requests to specialized skills across Claude Code, Codex, Cursor, OpenCode, and other agent hosts.
 - [keep-the-why](https://github.com/oliver-zehentleitner/keep-the-why) - Preserves the reasoning behind a codebase as project memory — decisions, rejected alternatives, workarounds, incident learnings, constraints.
