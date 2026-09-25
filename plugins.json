@@ -825,20 +825,6 @@
       ]
     },
     {
-      "name": "Ditto",
-      "url": "https://github.com/ohad6k/ditto",
-      "owner": "ohad6k",
-      "repo": "ditto",
-      "description": "Mines selected evidence from local coding-agent sessions into private work, design, and writing profiles for Codex, Claude Code, and GitHub Copilot.",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/ohad6k/ditto/HEAD/.codex-plugin/plugin.json",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "Docflow",
       "url": "https://github.com/MedAdemBHA/docflow",
       "owner": "MedAdemBHA",
@@ -861,6 +847,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/ejentum/ejentum-mcp/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Emulo",
+      "url": "https://github.com/ohad6k/emulo",
+      "owner": "ohad6k",
+      "repo": "emulo",
+      "description": "Mines selected evidence from local coding-agent sessions into private work, design, and writing profiles for Codex, Claude Code, and GitHub Copilot.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ohad6k/emulo/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -3039,6 +3039,20 @@
       ]
     },
     {
+      "name": "Story Skills",
+      "url": "https://github.com/danjdewhurst/story-skills",
+      "owner": "danjdewhurst",
+      "repo": "story-skills",
+      "description": "Fiction-writing skills for planning, drafting, and revising stories as markdown, with a dependency-free CLI that checks continuity: deaths, promise payoffs, open questions, and durable story state.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/danjdewhurst/story-skills/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Storyflo",
       "url": "https://github.com/droplinked/storyflo-codex-plugin",
       "owner": "droplinked",
@@ -4154,20 +4168,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/embedded-workbench/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "Emulo",
-      "url": "https://github.com/ohad6k/emulo",
-      "owner": "ohad6k",
-      "repo": "emulo",
-      "description": "Mines selected evidence from local coding-agent sessions into private work, design, and writing profiles for Codex, Claude Code, and GitHub Copilot",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/ohad6k/emulo/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
