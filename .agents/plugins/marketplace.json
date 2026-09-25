@@ -5632,6 +5632,21 @@
       "install_url": "https://raw.githubusercontent.com/3x-haust/oh-my-design/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "omp-rewrite",
+      "displayName": "omp-rewrite",
+      "description": "Oh My Pi (omp) extension that adds a /rewrite command, which asks clarifying questions about a rough draft prompt in a side turn and puts a thorough rewrite in the composer",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "zPeppOz",
+      "repo": "omp-rewrite",
+      "url": "https://github.com/zPeppOz/omp-rewrite",
+      "install_url": "https://raw.githubusercontent.com/zPeppOz/omp-rewrite/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Open PR",
       "displayName": "Open PR",
       "description": "AI code review that lands on the pull request itself across GitHub, GitLab, and Bitbucket, learning each repo's conventions to post one review, one fix commit, and in-thread replies from Claude Code, Cursor, Codex, Gemini CLI, or Antigravity",
@@ -6639,7 +6654,7 @@
     {
       "name": "Agent QA",
       "displayName": "Agent QA",
-      "description": "Source-available MCP server and Agent Skills for authoring, running, and triaging natural-language web and mobile application tests with reusable execution memory",
+      "description": "MCP server and Agent Skills for authoring, running, and triaging natural-language web and mobile tests with reusable execution memory",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "platform": "codex",
