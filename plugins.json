@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-25",
-  "total": 521,
+  "total": 522,
   "platforms": [
     "codex",
     "grok",
@@ -5456,6 +5456,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/using-system/otelyssey/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "PageSpeed Optimizer",
+      "url": "https://github.com/alexlivre/pagespeed-optimizer-alexlivre",
+      "owner": "alexlivre",
+      "repo": "pagespeed-optimizer-alexlivre",
+      "description": "Optimizes web applications for 100/100 PageSpeed Insights, Core Web Vitals, and Generative Engine Optimization (GEO)",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/alexlivre/pagespeed-optimizer-alexlivre/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

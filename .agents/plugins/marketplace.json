@@ -5842,6 +5842,21 @@
       "install_url": "https://raw.githubusercontent.com/using-system/otelyssey/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "PageSpeed Optimizer",
+      "displayName": "PageSpeed Optimizer",
+      "description": "Optimizes web applications for 100/100 PageSpeed Insights, Core Web Vitals, and Generative Engine Optimization (GEO)",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "alexlivre",
+      "repo": "pagespeed-optimizer-alexlivre",
+      "url": "https://github.com/alexlivre/pagespeed-optimizer-alexlivre",
+      "install_url": "https://raw.githubusercontent.com/alexlivre/pagespeed-optimizer-alexlivre/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "pbx-mcp",
       "displayName": "pbx-mcp",
       "description": "MCP server for Asterisk (AMI) and FreeSWITCH (ESL). Inspect channels, SIP registrations, trunks, and dialplan on a live PBX",
