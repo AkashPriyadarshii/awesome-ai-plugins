@@ -4357,6 +4357,21 @@
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/demo-gif-skill/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Designer Skill",
+      "displayName": "Designer Skill",
+      "description": "Plug-and-play MCP that gives your coding agent UI superpowers: design references, intent routing and a static anti-slop gate, no API key",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "PyModel",
+      "repo": "designer-skill",
+      "url": "https://github.com/PyModel/designer-skill",
+      "install_url": "https://raw.githubusercontent.com/PyModel/designer-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "dev-harness-kit",
       "displayName": "dev-harness-kit",
       "description": "Enforced development workflow skills for Codex and Claude Code covering planning, TDD, debugging, review, security, CI, and release",

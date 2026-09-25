@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-25",
-  "total": 522,
+  "total": 523,
   "platforms": [
     "codex",
     "grok",
@@ -4070,6 +4070,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/demo-gif-skill/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Designer Skill",
+      "url": "https://github.com/PyModel/designer-skill",
+      "owner": "PyModel",
+      "repo": "designer-skill",
+      "description": "Plug-and-play MCP that gives your coding agent UI superpowers: design references, intent routing and a static anti-slop gate, no API key",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/PyModel/designer-skill/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
