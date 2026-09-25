@@ -7331,6 +7331,21 @@
       "install_url": "https://raw.githubusercontent.com/Syh1906/openai-compatible-imagegen/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-cache-hit",
+      "displayName": "opencode-cache-hit",
+      "description": "OpenCode sidebar plugin showing prompt cache hit rate, token usage, and cost with sub-agent session rollup",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "zhumengzhu",
+      "repo": "opencode-cache-hit",
+      "url": "https://github.com/zhumengzhu/opencode-cache-hit",
+      "install_url": "https://raw.githubusercontent.com/zhumengzhu/opencode-cache-hit/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "opencode-cmd-provider",
       "displayName": "opencode-cmd-provider",
       "description": "OpenCode plugin that registers Command Code as a provider so you can run its models and plans inside OpenCode, with a sidebar showing tier, allowances, and deal rates",

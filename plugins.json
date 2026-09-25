@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-25",
-  "total": 524,
+  "total": 525,
   "platforms": [
     "codex",
     "grok",
@@ -6846,6 +6846,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Syh1906/openai-compatible-imagegen/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "opencode-cache-hit",
+      "url": "https://github.com/zhumengzhu/opencode-cache-hit",
+      "owner": "zhumengzhu",
+      "repo": "opencode-cache-hit",
+      "description": "OpenCode sidebar plugin showing prompt cache hit rate, token usage, and cost with sub-agent session rollup",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/zhumengzhu/opencode-cache-hit/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
